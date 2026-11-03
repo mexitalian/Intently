@@ -152,18 +152,35 @@ jobs:
       - name: Build debug APK
         run: ./gradlew assembleDebug
 
+      - name: Derive semantic version from branch name
+        id: ver
+        run: |
+          BUILD_NUM=$(printf '%s' "$GITHUB_REF_NAME" | sed -E 's/^milestone-([0-9]+)-.*/\1/')
+          case "$BUILD_NUM" in ''|*[!0-9]*) echo "branch must be named milestone-NN-description, got: $GITHUB_REF_NAME"; exit 1;; esac
+          DESC=$(printf '%s' "$GITHUB_REF_NAME" | sed -E 's/^milestone-[0-9]+-//' | tr '-' ' ')
+          {
+            echo "tag=v0.${BUILD_NUM}.0"
+            echo "buildno=${BUILD_NUM}"
+            echo "desc=${DESC}"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Rename APK
-        run: mv app/build/outputs/apk/debug/app-debug.apk "Intently-debug-${GITHUB_REF_NAME}.apk"
+        run: mv app/build/outputs/apk/debug/app-debug.apk "Intently-debug-${{ steps.ver.outputs.tag }}.apk"
 
       - name: Milestone note
         id: note
         run: echo "milestone_note=$(git log -1 --pretty=%B)" >> "$GITHUB_OUTPUT"
 
+      - name: Remove superseded branch-named catalog release
+        run: gh release delete "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes || gh release delete "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --yes || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Publish milestone debug release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          name: ${{ github.ref_name }}
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: ${{ steps.ver.outputs.tag }} — CI Build no. ${{ steps.ver.outputs.buildno }}: ${{ steps.ver.outputs.desc }}
           body: ${{ steps.note.outputs.milestone_note }}
           files: Intently-debug-*.apk
 
