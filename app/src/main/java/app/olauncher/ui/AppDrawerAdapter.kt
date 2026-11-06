@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
+import java.text.Normalizer
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.core.view.isVisible
