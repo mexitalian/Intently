@@ -2,8 +2,6 @@
     <string name="app_name" translatable="false">Intently</string>
     <string name="github" translatable="false">Github</string>
     <string name="lock_layout_description" translatable="false">lock layout description to be used a unique id to lock screen</string>
-    <!-- Home button for recents feature disabled -->
-    <!-- <string name="recents_layout_description" translatable="false">recents layout description to be used a unique id to show recent apps</string> -->
     <string name="digital_minimalism" translatable="false"><u>Digital Minimalism</u></string>
     <string name="new_app_note_safe" translatable="false"><u>Note to Self</u>\n<sub><small>(Ad-Free)</small></sub></string>
     <string name="new_app_minimal_todo_lists" translatable="false"><u>Minimal Todo Lists</u>\n<sub><small>(Ad-Free)</small></sub></string>
@@ -19,8 +17,6 @@
     <string name="tag_8" translatable="false">8</string>
     <string name="time_spent_min" translatable="false"><b>%1$sm</b></string>
     <string name="time_spent_hour" translatable="false">%1$sh %2$sm</string>
-
-
     <string name="app">App</string>
     <string name="set_as_default_launcher">Set as default launcher</string>
     <string name="set_as_default_launcher_u"><u>Set as default launcher</u></string>
@@ -34,6 +30,9 @@
     <string name="on">On</string>
     <string name="black">Black</string>
     <string name="white">White</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="keep_current">Keep current</string>
+    <string name="theme_wallpaper_message">Keep your current wallpaper, or switch to a plain one that matches the new theme?</string>
     <string name="change_default_launcher">Change default launcher</string>
     <string name="privacy">Privacy</string>
     <string name="share">Share</string>
@@ -73,12 +72,8 @@
     <string name="system_default">System</string>
     <string name="dark">Dark</string>
     <string name="light">Light</string>
-    <string name="welcome_to_intently_settings">Welcome to the settings!
-        \n\nRemember, if you have any questions, our About page has the answer.</string>
     <string name="share_message">We need your help! We believe everyone should know about Intently and its benefits, but we can\'t do it alone.
         \n\nCould you please share Intently with your friends, family, and followers? Thank you for your support! ❤</string>
-    <!--    <string name="share_message">Your monthly reminder - you should use your phone, not the other way round. Stay strong. You\'re doing great!-->
-    <!--         \n\nIf you have a moment to spare, could you please share Intently with others? Intently needs people. More importantly, people need Intently.</string>-->
     <string name="keyboard_message">Hi, keyboard is the fastest way to find and launch apps in Intently. Can we request you to keep this On for a few more days and then decide?
         \n\nThe choice is always yours.</string>
     <string name="digital_wellbeing_message">If you want to set time limits for certain apps, Digital Wellbeing feature of Android can help you do it.           Please search for Digital Wellbeing in your phone settings and enable it.</string>
@@ -95,9 +90,9 @@
     <string name="date_only">Date only</string>
     <string name="bottom_on">Bottom: On</string>
     <string name="bottom_off">Bottom: Off</string>
-    <string name="please_set_intently_as_default_first">Please set Intently as default first</string>
     <string name="tip_start_typing_for_rename">Tip: Start typing for app RENAME option</string>
     <string name="hidden_apps_message">Note: Tap on \'Intently\' at the top of this Settings page to find your hidden apps.\n\nMore details available in our About page.</string>
+    <string name="accessibility_permission">Accessibility permission</string>
     <string name="accessibility_disclosure">Please turn on Intently\'s accessibility service in your device\'s settings to enable Double tap to lock gesture.
     \n\nPlease note that this service is only used for this particular feature. Our accessibility service does not collect or share any data.</string>
     <string name="accept">Accept</string>
@@ -108,6 +103,7 @@
     <string name="not_working"><u>Not working?</u></string>
     <string name="info">Info</string>
     <string name="delete">Uninstall</string>
+    <string name="remove">Remove</string>
     <string name="text_size">Text size</string>
     <string name="bold_font">Bold font</string>
     <string name="enabled">Enabled</string>
@@ -128,14 +124,12 @@
     <string name="swipe_left_app_disabled">Swipe left app disabled</string>
     <string name="swipe_right_app_disabled">Swipe right app disabled</string>
     <string name="your_wallpaper_will_update_shortly">Your wallpaper will update shortly</string>
-    <string name="intently_is_not_default_launcher">Intently is not default. Wallpaper update will fail.</string>
     <string name="long_press_to_enable">Long press to enable</string>
     <string name="no_hidden_apps">No hidden apps</string>
     <string name="hidden_apps">Hidden apps</string>
     <string name="adapter_show">Show</string>
     <string name="adapter_hide">Hide</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Are you using your phone, or is your phone using you?</string>
-    <string name="about_intently">About and FAQs</string>
     <string name="screen_time">Screen time</string>
     <string name="learn_more">Learn more</string>
     <string name="did_you_know">Did you know?</string>
@@ -155,6 +149,11 @@
     <string name="invalid_shortcut">Invalid shortcut</string>
     <string name="shortcut_not_found">Shortcut not found</string>
     <string name="unable_to_open_shortcut">Unable to open shortcut</string>
+    <string name="welcome_to_intently_settings">Welcome to the settings!
+        \n\nRemember, if you have any questions, our About page has the answer.</string>
+    <string name="please_set_intently_as_default_first">Please set Intently as default first</string>
+    <string name="intently_is_not_default_launcher">Intently is not default. Wallpaper update will fail.</string>
+    <string name="about_intently">About and FAQs</string>
     <string name="folder_add_apps_hint">No apps in this folder yet</string>
     <string name="folder_app_missing">App not installed</string>
     <string name="folder_remove_mode_hint">Swipe an app away to remove it</string>

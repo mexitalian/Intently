@@ -18,7 +18,6 @@
     <string name="share_now">Partager maintenant</string>
     <string name="follow">Suivre</string>
     <string name="email">E-mail</string>
-
     <string name="donate">Donner</string>
     <string name="swipe_up_for_apps">1. Balayez vers le haut pour toutes les applications.\n2. Appuyez longuement n\'importe où pour les paramètres.</string>
     <string name="apps_on_home_screen">Applications sur l\'écran d\'accueil</string>
@@ -52,8 +51,6 @@
     <string name="system_default">Système</string>
     <string name="dark">Sombre</string>
     <string name="light">Clair</string>
-    <string name="welcome_to_intently_settings">Bienvenue dans les paramètres !
-        \n\nN\'oubliez pas, si vous avez des questions, notre page À propos a la réponse.</string>
     <string name="share_message">Nous avons besoin de votre aide ! Nous pensons que tout le monde devrait connaître Intently et ses avantages, mais nous ne pouvons pas y arriver seuls.\n\nPourriez-vous partager Intently avec vos amis, votre famille et vos abonnés ? Merci pour votre soutien ! ❤</string>
     <string name="keyboard_message">Bonjour, le clavier est le moyen le plus rapide de trouver et de lancer des applications dans Intently. Pouvons-nous vous demander de le laisser activé quelques jours de plus avant de décider ?\n\nLe choix vous appartient toujours.</string>
     <string name="digital_wellbeing_message">Si vous souhaitez définir des limites de temps pour certaines applications, la fonctionnalité Digital Wellbeing d\'Android peut vous aider à le faire.
@@ -70,9 +67,9 @@
     <string name="date_only">Date uniquement</string>
     <string name="bottom_on">Bas : Activé</string>
     <string name="bottom_off">Bas : Désactivé</string>
-    <string name="please_set_intently_as_default_first">Veuillez d\'abord définir Intently comme lanceur par défaut.</string>
     <string name="tip_start_typing_for_rename">Conseil : Commencez à écrire pour faire apparaitre l\'option RENOMMER.</string>
     <string name="hidden_apps_message">Remarque : Appuyez sur \'Intently\' en haut de cette page Paramètres pour trouver vos applications cachées.\n\nPlus de détails sont disponibles sur notre page À propos.</string>
+    <string name="accessibility_permission">Autorisation d\'accessibilité</string>
     <string name="accessibility_disclosure">Veuillez activer le service d\'accessibilité d\'Intently dans les paramètres de votre appareil pour utiliser le geste Double appui pour verrouiller.\n\nVeuillez noter que ce service est utilisé uniquement pour cette fonctionnalité. Notre service d\'accessibilité ne collecte ni ne partage aucune donnée.</string>
     <string name="accept">Accepter</string>
     <string name="permission">Autorisation</string>
@@ -83,6 +80,7 @@
     <string name="not_working"><u>Ne fonctionne pas?</u></string>
     <string name="info">Info</string>
     <string name="delete">Désinstaller</string>
+    <string name="remove">Retirer</string>
     <string name="text_size">Taille du texte</string>
     <string name="enabled">Activé</string>
     <string name="disabled">Désactivé</string>
@@ -101,14 +99,12 @@
     <string name="swipe_left_app_disabled">Balayage vers la gauche désactivé</string>
     <string name="swipe_right_app_disabled">Balayage vers la droite désactivé</string>
     <string name="your_wallpaper_will_update_shortly">Votre fond d\'écran sera bientôt mis à jour.</string>
-    <string name="intently_is_not_default_launcher">Intently n\'est pas le lanceur par défaut.\nLa mise à jour du fond d\'écran échouera.</string>
     <string name="long_press_to_enable">Appuyez longuement pour activer.</string>
     <string name="no_hidden_apps">Aucune application cachée</string>
     <string name="hidden_apps">Applications cachées</string>
     <string name="adapter_show">Afficher</string>
     <string name="adapter_hide">Masquer</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Utilisez-vous votre téléphone, ou votre téléphone vous utilise-t-il?</string>
-    <string name="about_intently">À propos et FAQ</string>
     <string name="learn_more">En savoir plus</string>
     <string name="screen_time">Temps d\'écran</string>
     <string name="did_you_know">Le saviez-vous ?</string>
@@ -130,4 +126,9 @@
     <string name="unable_to_open_shortcut">Impossible d\'ouvrir le raccourci</string>
     <string name="unable_to_open_app_info">Impossible d\'ouvrir les informations sur l\'application</string>
     <string name="bold_font">Police en gras</string>
-</resources><!-- French -->
+    <string name="welcome_to_intently_settings">Bienvenue dans les paramètres !
+        \n\nN\'oubliez pas, si vous avez des questions, notre page À propos a la réponse.</string>
+    <string name="please_set_intently_as_default_first">Veuillez d\'abord définir Intently comme lanceur par défaut.</string>
+    <string name="intently_is_not_default_launcher">Intently n\'est pas le lanceur par défaut.\nLa mise à jour du fond d\'écran échouera.</string>
+    <string name="about_intently">À propos et FAQ</string>
+</resources>

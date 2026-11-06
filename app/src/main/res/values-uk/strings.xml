@@ -18,7 +18,6 @@
     <string name="share_now">Поділитися</string>
     <string name="follow">Перейти</string>
     <string name="email">Електронна пошта</string>
-
     <string name="donate">Пожертвувати</string>
     <string name="swipe_up_for_apps">1. Проведіть вгору, щоб відкрити всі програми.\n2. Тривалим натисканням будь-де відкриваються налаштування</string>
     <string name="apps_on_home_screen">Кількість програм на головному екрані</string>
@@ -52,7 +51,6 @@
     <string name="system_default">Системна</string>
     <string name="dark">Темна</string>
     <string name="light">Світла</string>
-    <string name="welcome_to_intently_settings">Ласкаво просимо до налаштувань!\n\nПам\'ятайте: якщо у вас є питання, відповідь є на нашій сторінці «Про додаток».</string>
     <string name="share_message">Нам потрібна ваша допомога! Ми вважаємо, що кожен має знати про Intently та його переваги, але самотужки нам не впоратися.\n\nЧи не могли б ви поділитися Intently із друзями, родиною та підписниками? Дякуємо за підтримку! ❤</string>
     <string name="keyboard_message">Привіт, клавіатура - це найшвидший спосіб знайти та запустити програми в Intently. Чи можемо ми попросити вас залишити це увімкненим ще на кілька днів, а потім прийняти рішення?
         \n\nВибір завжди за вами.</string>
@@ -71,9 +69,9 @@
     <string name="date_only">Тільки дата</string>
     <string name="bottom_on">Внизу: Увімк.</string>
     <string name="bottom_off">Внизу: Вимк.</string>
-    <string name="please_set_intently_as_default_first">Спочатку встановіть Intently як стандартний лаунчер.</string>
     <string name="tip_start_typing_for_rename">Порада: почніть вводити текст, щоб перейменувати програму.</string>
     <string name="hidden_apps_message">Примітка: натисніть «Intently» у верхній частині сторінки налаштувань, щоб знайти приховані додатки.\n\nДокладніша інформація доступна на нашій сторінці «Про додаток».</string>
+    <string name="accessibility_permission">Дозвіл спеціальних можливостей</string>
     <string name="accessibility_disclosure">Увімкніть службу спеціальних можливостей Intently у налаштуваннях вашого пристрою, щоб увімкнути жест подвійного торкання для блокування.\n\nЗверніть увагу, що ця служба використовується лише для цієї функції. Наша служба спеціальних можливостей не збирає та не поширює жодних даних.</string>
     <string name="accept">Прийняти</string>
     <string name="permission">Дозвіл</string>
@@ -84,6 +82,7 @@
     <string name="not_working"><u>Не працює?</u></string>
     <string name="info">Інформація</string>
     <string name="delete">Видалити</string>
+    <string name="remove">Прибрати</string>
     <string name="text_size">Розмір тексту</string>
     <string name="enabled">Увімкнено</string>
     <string name="disabled">Вимкнено</string>
@@ -102,14 +101,12 @@
     <string name="swipe_left_app_disabled">Додаток для свайпу вліво вимкнено</string>
     <string name="swipe_right_app_disabled">Додаток для свайпу вправо вимкнено</string>
     <string name="your_wallpaper_will_update_shortly">Ваші шпалери незабаром оновляться</string>
-    <string name="intently_is_not_default_launcher">Intently не є стандартним лаунчером.\nЩоденне оновлення шпалер може завершитися помилкою.</string>
     <string name="long_press_to_enable">Натисніть та утримуйте, щоб увімкнути</string>
     <string name="no_hidden_apps">Немає прихованих додатків</string>
     <string name="hidden_apps">Приховані додатки</string>
     <string name="adapter_show">Показати</string>
     <string name="adapter_hide">Приховати</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Ви користуєтеся своїм телефоном, чи ваш телефон використовує вас?</string>
-    <string name="about_intently">Про додаток і FAQ</string>
     <string name="learn_more">Дізнатися більше</string>
     <string name="screen_time">Час екрану</string>
     <string name="did_you_know">Чи знали ви?</string>
@@ -131,4 +128,8 @@
     <string name="unable_to_open_shortcut">Не вдалося відкрити ярлик</string>
     <string name="unable_to_open_app_info">Неможливо відкрити інформацію про додаток</string>
     <string name="bold_font">Жирний шрифт</string>
-</resources><!-- Ukrainian -->
+    <string name="welcome_to_intently_settings">Ласкаво просимо до налаштувань!\n\nПам\'ятайте: якщо у вас є питання, відповідь є на нашій сторінці «Про додаток».</string>
+    <string name="please_set_intently_as_default_first">Спочатку встановіть Intently як стандартний лаунчер.</string>
+    <string name="intently_is_not_default_launcher">Intently не є стандартним лаунчером.\nЩоденне оновлення шпалер може завершитися помилкою.</string>
+    <string name="about_intently">Про додаток і FAQ</string>
+</resources>

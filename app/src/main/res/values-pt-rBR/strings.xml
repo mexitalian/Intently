@@ -18,7 +18,6 @@
     <string name="share_now">Compartilhar agora</string>
     <string name="follow">Seguir</string>
     <string name="email">E-mail</string>
-
     <string name="donate">Doar</string>
     <string name="swipe_up_for_apps">1. Deslize para cima para ver todos os aplicativos\n2. Pressione e segure em qualquer lugar para acessar as configurações</string>
     <string name="apps_on_home_screen">Aplicativos na tela inicial</string>
@@ -52,8 +51,6 @@
     <string name="system_default">Sistema</string>
     <string name="dark">Escuro</string>
     <string name="light">Claro</string>
-    <string name="welcome_to_intently_settings">Bem-vindo às configurações!
-        \n\nLembre-se, se você tiver alguma dúvida, nossa página Sobre tem a resposta.</string>
     <string name="share_message">Precisamos da sua ajuda! Acreditamos que todos deveriam conhecer o Intently e seus benefícios, mas não podemos fazer isso sozinhos.\n\nVocê poderia compartilhar o Intently com seus amigos, familiares e seguidores? Obrigado pelo seu apoio! ❤</string>
     <string name="keyboard_message">Olá, o teclado é a maneira mais rápida de encontrar e iniciar aplicativos no Intently. Podemos pedir-lhe que mantenha isto ligado por mais alguns dias para depois decidir?
         \n\nA escolha é sempre sua!</string>
@@ -72,9 +69,9 @@
     <string name="date_only">Apenas data</string>
     <string name="bottom_on">Fundo: Ativado</string>
     <string name="bottom_off">Fundo: Desligado</string>
-    <string name="please_set_intently_as_default_first">Por favor, defina o Intently como seu launcher padrão primeiro</string>
     <string name="tip_start_typing_for_rename">Dica: comece a digitar para ver a opção de RENOMEAR o aplicativo</string>
     <string name="hidden_apps_message">Nota: Toque em \'Intently\' na parte superior desta página de Configurações para encontrar seus aplicativos ocultos.\n\nMais detalhes disponíveis em nossa página Sobre.</string>
+    <string name="accessibility_permission">Permissão de acessibilidade</string>
     <string name="accessibility_disclosure">Ative o serviço de acessibilidade do Intently nas configurações do seu dispositivo para ativar o gesto de toque duplo para bloquear.\n\nObserve que este serviço é usado apenas para esse recurso específico. Nosso serviço de acessibilidade não coleta nem compartilha nenhum dado.</string>
     <string name="accept">Aceitar</string>
     <string name="permission">Permissão</string>
@@ -85,6 +82,7 @@
     <string name="not_working"><u>Não está funcionando?</u></string>
     <string name="info">Informação</string>
     <string name="delete">Desinstalar</string>
+    <string name="remove">Remover</string>
     <string name="text_size">Tamanho do texto</string>
     <string name="enabled">Ativado</string>
     <string name="disabled">Desativado</string>
@@ -103,14 +101,12 @@
     <string name="swipe_left_app_disabled">Deslizar para a esquerda para abrir aplicativo desativado</string>
     <string name="swipe_right_app_disabled">Deslizar para a direita para abrir aplicativo desativado</string>
     <string name="your_wallpaper_will_update_shortly">Seu papel de parede será atualizado em breve</string>
-    <string name="intently_is_not_default_launcher">O Intently não é o launcher padrão. A atualização do papel de parede falhará.</string>
     <string name="long_press_to_enable">Pressione e segure para ativar</string>
     <string name="no_hidden_apps">Sem aplicativos ocultos</string>
     <string name="hidden_apps">Aplicativos ocultos</string>
     <string name="adapter_show">Mostrar</string>
     <string name="adapter_hide">Ocultar</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Você está usando seu telefone, ou seu telefone está usando você?</string>
-    <string name="about_intently">Sobre e perguntas frequentes</string>
     <string name="learn_more">Saber mais</string>
     <string name="screen_time">Tempo de tela</string>
     <string name="did_you_know">Você sabia?</string>
@@ -132,4 +128,9 @@
     <string name="unable_to_open_shortcut">Não é possível abrir o atalho</string>
     <string name="unable_to_open_app_info">Não é possível abrir as informações do aplicativo</string>
     <string name="bold_font">Fonte em negrito</string>
-</resources><!-- Portuguese -->
+    <string name="welcome_to_intently_settings">Bem-vindo às configurações!
+        \n\nLembre-se, se você tiver alguma dúvida, nossa página Sobre tem a resposta.</string>
+    <string name="please_set_intently_as_default_first">Por favor, defina o Intently como seu launcher padrão primeiro</string>
+    <string name="intently_is_not_default_launcher">O Intently não é o launcher padrão. A atualização do papel de parede falhará.</string>
+    <string name="about_intently">Sobre e perguntas frequentes</string>
+</resources>

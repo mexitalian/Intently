@@ -51,8 +51,6 @@
     <string name="system_default">ระบบ</string>
     <string name="dark">มืด</string>
     <string name="light">สว่าง</string>
-    <string name="welcome_to_intently_settings">ยินดีต้อนรับสู่การตั้งค่า!
-        \n\nโปรดจำไว้ว่าหากคุณมีคำถามใดๆ หน้าเกี่ยวกับเรามีคำตอบให้คุณ</string>
     <string name="share_message">เราต้องการความช่วยเหลือจากคุณ! เราเชื่อว่าทุกคนควรรู้จัก Intently และประโยชน์ของมัน แต่เราทำเพียงลำพังไม่ได้
         \n\nคุณช่วยแชร์ Intently ให้เพื่อน ครอบครัว และผู้ติดตามของคุณได้ไหม ขอบคุณสำหรับการสนับสนุนของคุณ! ❤</string>
     <string name="keyboard_message">สวัสดี แป้นพิมพ์เป็นวิธีที่เร็วที่สุดในการค้นหาและเปิดแอปใน Intently เราขอให้คุณเปิดฟีเจอร์นี้ไว้อีกสองสามวันแล้วค่อยตัดสินใจได้ไหม
@@ -71,9 +69,9 @@
     <string name="date_only">วันที่เท่านั้น</string>
     <string name="bottom_on">ด้านล่าง: เปิด</string>
     <string name="bottom_off">ด้านล่าง: ปิด</string>
-    <string name="please_set_intently_as_default_first">โปรดตั้งค่า Intently เป็นค่าเริ่มต้นก่อน</string>
     <string name="tip_start_typing_for_rename">เคล็ดลับ: เริ่มพิมพ์เพื่อดูตัวเลือกเปลี่ยนชื่อแอป</string>
     <string name="hidden_apps_message">หมายเหตุ: แตะที่ \'Intently\' ที่ด้านบนของหน้าการตั้งค่านี้เพื่อค้นหาแอปที่ซ่อนอยู่\n\nดูรายละเอียดเพิ่มเติมได้ที่หน้าเกี่ยวกับเรา</string>
+    <string name="accessibility_permission">สิทธิ์การช่วยการเข้าถึง</string>
     <string name="accessibility_disclosure">โปรดเปิดบริการการเข้าถึงของ Intently ในการตั้งค่าอุปกรณ์ของคุณเพื่อเปิดใช้งานท่าทางแตะสองครั้งเพื่อล็อก
     \n\nโปรดทราบว่าบริการนี้ใช้สำหรับฟีเจอร์นี้เท่านั้น บริการการเข้าถึงของเราไม่เก็บรวบรวมหรือแชร์ข้อมูลใดๆ</string>
     <string name="accept">ยอมรับ</string>
@@ -84,6 +82,7 @@
     <string name="not_working"><u>ใช้งานไม่ได้ใช่ไหม?</u></string>
     <string name="info">ข้อมูล</string>
     <string name="delete">ถอนการติดตั้ง</string>
+    <string name="remove">ลบ</string>
     <string name="text_size">ขนาดข้อความ</string>
     <string name="enabled">เปิดใช้งานแล้ว</string>
     <string name="disabled">ปิดใช้งานแล้ว</string>
@@ -103,14 +102,12 @@
     <string name="swipe_left_app_disabled">ปิดใช้งานแอปเมื่อปัดซ้ายแล้ว</string>
     <string name="swipe_right_app_disabled">ปิดใช้งานแอปเมื่อปัดขวาแล้ว</string>
     <string name="your_wallpaper_will_update_shortly">วอลเปเปอร์ของคุณจะอัปเดตในไม่ช้า</string>
-    <string name="intently_is_not_default_launcher">Intently ไม่ใช่ตัวเปิดใช้งานเริ่มต้น การอัปเดตวอลเปเปอร์จะล้มเหลว</string>
     <string name="long_press_to_enable">กดค้างเพื่อเปิดใช้งาน</string>
     <string name="no_hidden_apps">ไม่มีแอปที่ซ่อนอยู่</string>
     <string name="hidden_apps">แอปที่ซ่อนอยู่</string>
     <string name="adapter_show">แสดง</string>
     <string name="adapter_hide">ซ่อน</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">คุณกำลังใช้โทรศัพท์ของคุณ หรือโทรศัพท์กำลังใช้คุณ?</string>
-    <string name="about_intently">เกี่ยวกับเราและคำถามที่พบบ่อย</string>
     <string name="screen_time">เวลาหน้าจอ</string>
     <string name="learn_more">เรียนรู้เพิ่มเติม</string>
     <string name="did_you_know">คุณรู้หรือไม่?</string>
@@ -131,4 +128,9 @@
     <string name="shortcut_not_found">ไม่พบทางลัด</string>
     <string name="unable_to_open_shortcut">ไม่สามารถเปิดทางลัดได้</string>
     <string name="bold_font">ตัวหนา</string>
+    <string name="welcome_to_intently_settings">ยินดีต้อนรับสู่การตั้งค่า!
+        \n\nโปรดจำไว้ว่าหากคุณมีคำถามใดๆ หน้าเกี่ยวกับเรามีคำตอบให้คุณ</string>
+    <string name="please_set_intently_as_default_first">โปรดตั้งค่า Intently เป็นค่าเริ่มต้นก่อน</string>
+    <string name="intently_is_not_default_launcher">Intently ไม่ใช่ตัวเปิดใช้งานเริ่มต้น การอัปเดตวอลเปเปอร์จะล้มเหลว</string>
+    <string name="about_intently">เกี่ยวกับเราและคำถามที่พบบ่อย</string>
 </resources>
