@@ -33,10 +33,9 @@ import app.olauncher.helper.isDaySince
 import app.olauncher.helper.isDefaultLauncher
 import app.olauncher.helper.OlDialog
 import app.olauncher.helper.isEinkDisplay
-import app.olauncher.helper.isOlauncherDefault
+import app.olauncher.helper.isIntentlyDefault
 import app.olauncher.helper.isSystemAnimationsDisabled
 import app.olauncher.helper.isTablet
-import app.olauncher.helper.openUrl
 import app.olauncher.helper.rateApp
 import app.olauncher.helper.resetLauncherViaFakeActivity
 import app.olauncher.helper.setPlainWallpaper
@@ -212,7 +211,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.showDialog.observe(this) {
             when (it) {
                 Constants.Dialog.ABOUT -> {
-                    showMessage(R.string.app_name, R.string.welcome_to_olauncher_settings, R.string.okay) {}
+                    showMessage(R.string.app_name, R.string.welcome_to_intently_settings, R.string.okay) {}
                 }
 
                 Constants.Dialog.WALLPAPER -> {
@@ -266,12 +265,6 @@ class MainActivity : AppCompatActivity() {
                         startActivity(Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS))
                     }
                 }
-
-                Constants.Dialog.PRO_MESSAGE -> {
-                    showMessage(R.string.hey, R.string.pro_message, R.string.olauncher_pro) {
-                        openUrl(Constants.URL_OLAUNCHER_PRO)
-                    }
-                }
             }
         }
     }
@@ -306,28 +299,28 @@ class MainActivity : AppCompatActivity() {
             Constants.UserState.WALLPAPER -> {
                 if (prefs.wallpaperMsgShown || prefs.dailyWallpaper)
                     prefs.userState = Constants.UserState.REVIEW
-                else if (isOlauncherDefault(this))
+                else if (isIntentlyDefault(this))
                     viewModel.showDialog.postValue(Constants.Dialog.WALLPAPER)
             }
 
             Constants.UserState.REVIEW -> {
                 if (prefs.rateClicked)
                     prefs.userState = Constants.UserState.SHARE
-                else if (isOlauncherDefault(this) && prefs.firstOpenTime.hasBeenHours(1))
+                else if (isIntentlyDefault(this) && prefs.firstOpenTime.hasBeenHours(1))
                     viewModel.showDialog.postValue(Constants.Dialog.REVIEW)
             }
 
             Constants.UserState.RATE -> {
                 if (prefs.rateClicked)
                     prefs.userState = Constants.UserState.SHARE
-                else if (isOlauncherDefault(this)
+                else if (isIntentlyDefault(this)
                     && prefs.firstOpenTime.isDaySince() >= 7
                     && calendar.get(Calendar.HOUR_OF_DAY) >= 16
                 ) viewModel.showDialog.postValue(Constants.Dialog.RATE)
             }
 
             Constants.UserState.SHARE -> {
-                if (isOlauncherDefault(this) && prefs.firstOpenTime.hasBeenDays(14)
+                if (isIntentlyDefault(this) && prefs.firstOpenTime.hasBeenDays(14)
                     && prefs.shareShownTime.isDaySince() >= 70
                     && calendar.get(Calendar.HOUR_OF_DAY) >= 16
                 ) viewModel.showDialog.postValue(Constants.Dialog.SHARE)

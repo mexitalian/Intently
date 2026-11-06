@@ -32,11 +32,10 @@ import app.olauncher.helper.hideStatusBar
 import app.olauncher.helper.isAccessServiceEnabled
 import app.olauncher.helper.isDarkThemeOn
 import app.olauncher.helper.isEinkDisplay
-import app.olauncher.helper.isOlauncherDefault
+import app.olauncher.helper.isIntentlyDefault
 import app.olauncher.helper.isTablet
 import app.olauncher.helper.openAppInfo
 import app.olauncher.helper.openUrl
-import app.olauncher.helper.rateApp
 import app.olauncher.helper.setPlainWallpaper
 import app.olauncher.helper.shareApp
 import app.olauncher.helper.OlDialog
@@ -67,14 +66,13 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
         viewModel = activity?.run {
             ViewModelProvider(this)[MainViewModel::class.java]
         } ?: throw Exception("Invalid Activity")
-        viewModel.isOlauncherDefault()
+        viewModel.isIntentlyDefault()
 
         deviceManager = requireContext().getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
         componentName = ComponentName(requireContext(), DeviceAdmin::class.java)
         checkAdminPermission()
 
         binding.homeAppsNum.text = prefs.homeAppsNum.toString()
-        populateProMessage()
         populateKeyboardText()
         populateScreenTimeOnOff()
         populateLockSettings()
@@ -96,8 +94,7 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.olauncherHiddenApps -> showHiddenApps()
-            R.id.moreFeatures -> viewModel.showDialog.postValue(Constants.Dialog.PRO_MESSAGE)
+            R.id.intentlyHiddenApps -> showHiddenApps()
             R.id.screenTimeOnOff -> viewModel.showDialog.postValue(Constants.Dialog.DIGITAL_WELLBEING)
             R.id.appInfo -> openAppInfo(requireContext(), Process.myUserHandle(), BuildConfig.APPLICATION_ID)
             R.id.setLauncher -> viewModel.resetLauncherLiveData.call()
@@ -118,20 +115,14 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
             R.id.swipeLeftApp -> showAppListIfEnabled(Constants.FLAG_SET_SWIPE_LEFT_APP)
             R.id.swipeRightApp -> showAppListIfEnabled(Constants.FLAG_SET_SWIPE_RIGHT_APP)
 
-            R.id.aboutOlauncher -> {
+            R.id.aboutIntently -> {
                 prefs.aboutClicked = true
-                requireContext().openUrl(Constants.URL_ABOUT_OLAUNCHER)
+                requireContext().openUrl(Constants.URL_ABOUT_INTENTLY)
             }
 
             R.id.share -> requireActivity().shareApp()
-            R.id.rate -> {
-                prefs.rateClicked = true
-                requireActivity().rateApp()
-            }
-
-            R.id.twitter -> requireContext().openUrl(Constants.URL_TWITTER_TANUJ)
-            R.id.github -> requireContext().openUrl(Constants.URL_OLAUNCHER_GITHUB)
-            R.id.privacy -> requireContext().openUrl(Constants.URL_OLAUNCHER_PRIVACY)
+            R.id.github -> requireContext().openUrl(Constants.URL_INTENTLY_GITHUB)
+            R.id.privacy -> requireContext().openUrl(Constants.URL_INTENTLY_PRIVACY)
         }
     }
 
@@ -153,11 +144,10 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
     }
 
     private fun initClickListeners() {
-        binding.olauncherHiddenApps.setOnClickListener(this)
+        binding.intentlyHiddenApps.setOnClickListener(this)
         binding.appInfo.setOnClickListener(this)
         binding.setLauncher.setOnClickListener(this)
-        binding.aboutOlauncher.setOnClickListener(this)
-        binding.moreFeatures.setOnClickListener(this)
+        binding.aboutIntently.setOnClickListener(this)
         binding.autoShowKeyboard.setOnClickListener(this)
         binding.toggleLock.setOnClickListener(this)
         // Home button for recents feature disabled
@@ -176,8 +166,6 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
         binding.boldFont.setOnClickListener(this)
 
         binding.share.setOnClickListener(this)
-        binding.rate.setOnClickListener(this)
-        binding.twitter.setOnClickListener(this)
         binding.github.setOnClickListener(this)
         binding.privacy.setOnClickListener(this)
 
@@ -194,7 +182,7 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
             viewModel.showDialog.postValue(Constants.Dialog.ABOUT)
             prefs.firstSettingsOpen = false
         }
-        viewModel.isOlauncherDefault.observe(viewLifecycleOwner) {
+        viewModel.isIntentlyDefault.observe(viewLifecycleOwner) {
             if (it) {
                 binding.setLauncher.text = getString(R.string.change_default_launcher)
                 prefs.toShowHintCounter += 1
@@ -424,7 +412,7 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
     }
 
     private fun toggleDailyWallpaperUpdate() {
-        if (prefs.dailyWallpaper.not() && prefs.appTheme == AppCompatDelegate.MODE_NIGHT_YES && viewModel.isOlauncherDefault.value == false) {
+        if (prefs.dailyWallpaper.not() && prefs.appTheme == AppCompatDelegate.MODE_NIGHT_YES && viewModel.isIntentlyDefault.value == false) {
             requireContext().showToast(R.string.set_as_default_launcher_first)
             return
         }
@@ -437,10 +425,10 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
     }
 
     private fun showWallpaperToasts() {
-        if (isOlauncherDefault(requireContext()))
+        if (isIntentlyDefault(requireContext()))
             requireContext().showToast(getString(R.string.your_wallpaper_will_update_shortly))
         else
-            requireContext().showToast(getString(R.string.olauncher_is_not_default_launcher), Toast.LENGTH_LONG)
+            requireContext().showToast(getString(R.string.intently_is_not_default_launcher), Toast.LENGTH_LONG)
     }
 
     private fun updateHomeAppsNum(num: Int) {
@@ -558,8 +546,8 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
     }
 
     private fun updateHomeBottomAlignment() {
-        if (viewModel.isOlauncherDefault.value != true) {
-            requireContext().showToast(getString(R.string.please_set_olauncher_as_default_first), Toast.LENGTH_LONG)
+        if (viewModel.isIntentlyDefault.value != true) {
+            requireContext().showToast(getString(R.string.please_set_intently_as_default_first), Toast.LENGTH_LONG)
             return
         }
         prefs.homeBottomAlignment = !prefs.homeBottomAlignment
@@ -639,17 +627,7 @@ class SettingsFragment : BaseFragment(), View.OnClickListener, View.OnLongClickL
 
     private fun populateActionHints() {
         if (prefs.aboutClicked.not())
-            binding.aboutOlauncher.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_info, 0)
-        if (viewModel.isOlauncherDefault.value != true) return
-        if (prefs.rateClicked.not() && prefs.toShowHintCounter > Constants.HINT_RATE_US && prefs.toShowHintCounter < Constants.HINT_RATE_US + 100)
-            binding.rate.setCompoundDrawablesWithIntrinsicBounds(0, android.R.drawable.arrow_down_float, 0, 0)
-    }
-
-    private fun populateProMessage() {
-        if (prefs.proMessageShown.not() && prefs.userState == Constants.UserState.SHARE) {
-            prefs.proMessageShown = true
-            viewModel.showDialog.postValue(Constants.Dialog.PRO_MESSAGE)
-        }
+            binding.aboutIntently.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_info, 0)
     }
 
     override fun onDestroyView() {

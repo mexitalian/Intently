@@ -1,1 +1,22 @@
-<p><b>Are you using your phone, or is your phone using you?</b></b><p><i>Olauncher</i> is a minimal AF Android launcher with just enough features. By the way, AF stands for AdFree. :D</p><p><br><b>FEATURES YOU MIGHT LIKE:</b></p><ul><li><b>Minimalist homescreen:</b> A clean homescreen experience with no icons, ads or any distraction. It helps you reduce your screen time and increase productivity.</li><li><b>Customizations:</b> Resize text, rename apps, hide unused apps, show or hide the status bar, app text alignments, etc.</li><li><b>Gestures:</b> Double tap to lock screen. Swipe left or right to open apps. Swipe down for notifications.</li><li><b>Wallpaper:</b> A beautiful new wallpaper, daily. No one said that a minimalist launcher has to be boring. :)</li><li><b>Privacy:</b> No data collection. FOSS Android launcher. Open source under GPLv3 license.</li><li><b>Launcher features:</b> Dark &amp; light themes, dual apps support, work profile support, auto app launch.</li></ul><p>To maintain the simplicity of such a minimalist launcher, a few niche features are available but hidden. Please visit the <b>About</b> page in settings for the complete list.</p><p><b>FAQs:</b></p><ul><li><b>1. Hidden apps</b> - Long press anywhere on the home screen to open settings. Tap ’Olauncher’ on the top to see your hidden apps.</li><li><b>2. Navigation gestures</b> - Some devices do not support gestures with a downloaded Android launchers. This can only be fixed by your device manufacturer via an update.</li><li><b>3. Wallpapers</b> - This Android launcher provides a new wallpaper daily. You can also set any wallpaper you want from your phone settings or Gallery/Photos app.</li></ul><p>Our About page in settings has rest of the FAQs and several other tips to help you make the best usage of Olauncher. Please check it out.</p><p><b>Accessibility Service:</b> Our Accessibility Service is used exclusively to let you turn off your phone’s screen with a double-tap gesture. It is optional, disabled by default and doesn’t collect or share any data.</p><p>P.S. Thank you for checking out the description till the end. Only a few very special people do that. Take care! ❤️</p>
+<p><b>Are you using your phone, or is your phone using you?</b></p>
+<p><i>Intently</i> is a minimal, ad-free Android launcher built around intentions. Give each home-screen row a word — Read, Listen, Create, Move — and keep only the apps that serve it.</p>
+<p><br><b>FEATURES YOU MIGHT LIKE:</b></p>
+<ul>
+<li><b>Intention-first home screen:</b> Name each row, choose the app that opens on tap, and swipe up to see the rest.</li>
+<li><b>Fast app drawer:</b> Search by name and launch automatically when one result matches.</li>
+<li><b>Useful gestures:</b> Double tap to lock, swipe up for all apps, and optional left/right shortcuts.</li>
+<li><b>Customizations:</b> Resize text, rename apps, hide unused apps, adjust alignment, and show or hide the status bar.</li>
+<li><b>Wallpaper:</b> A new wallpaper every day, or use any image from your gallery.</li>
+<li><b>Privacy:</b> No data collection, no ads, no trackers. Free and open source under GPLv3.</li>
+<li><b>Modern Android:</b> Dark and light themes, work profile support, and Private Space support on supported devices.</li>
+</ul>
+<p>To keep the home screen simple, a few niche features are available but hidden. Please visit the <b>About</b> page in settings for the complete list.</p>
+<p><b>FAQs:</b></p>
+<ul>
+<li><b>1. Hidden apps</b> - Long press anywhere on the home screen to open settings. Tap <b>Intently</b> at the top to see your hidden apps.</li>
+<li><b>2. Navigation gestures</b> - Some devices do not support gestures with downloaded Android launchers. This can only be fixed by your device manufacturer via an update.</li>
+<li><b>3. Wallpapers</b> - Intently provides a new wallpaper daily. You can also set any wallpaper from your phone settings or Gallery/Photos app.</li>
+</ul>
+<p>The About page in settings has the rest of the FAQs and several tips to help you get the most out of Intently.</p>
+<p><b>Accessibility Service:</b> The Accessibility Service is used exclusively to let you turn off the phone screen with a double-tap gesture. It is optional, disabled by default, and does not collect or share any data.</p>
+<p>P.S. Thank you for checking out the description till the end. Only a few very special people do that. Take care! ❤️</p>
