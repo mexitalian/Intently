@@ -180,7 +180,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.ver.outputs.tag }}
-          name: ${{ steps.ver.outputs.tag }} — CI Build no. ${{ steps.ver.outputs.buildno }}: ${{ steps.ver.outputs.desc }}
+          name: "${{ steps.ver.outputs.tag }} — CI Build no. ${{ steps.ver.outputs.buildno }}: ${{ steps.ver.outputs.desc }}"
           body: ${{ steps.note.outputs.milestone_note }}
           files: Intently-debug-*.apk
 
