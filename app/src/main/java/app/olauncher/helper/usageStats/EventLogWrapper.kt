@@ -273,11 +273,11 @@ class EventLogWrapper(private val context: Context) {
         if (foregroundStats.isEmpty()) return emptyList()
 
         // Group by package name, merge overlapping intervals, then sum durations
-        val applicationTotalTime = foregroundStats
-            .groupBy { it.packageName }
-            .mapValues { entry ->
-                mergeOverlappingIntervals(entry.value).map { it.endTime - it.beginTime }.sum()
-            }
+        val grouped: Map<String, List<ComponentForegroundStat>> = foregroundStats.groupBy { it.packageName }
+        val applicationTotalTime = grouped.mapValues { entry ->
+            val merged: List<ComponentForegroundStat> = mergeOverlappingIntervals(entry.value)
+            merged.map { stat -> stat.endTime - stat.beginTime }.sum()
+        }
 
         val firstBeginTime = foregroundStats.first().beginTime
         val timeZoneOffset = Calendar.getInstance().timeZone.getOffset(firstBeginTime)
@@ -360,8 +360,9 @@ class EventLogWrapper(private val context: Context) {
      * several apps were visible at once (e.g. split screen) is only counted once.
      */
     fun getTotalForegroundTime(foregroundStats: List<ComponentForegroundStat>): Long {
-        return mergeOverlappingIntervals(foregroundStats.filter { it.endTime > it.beginTime })
-            .map { it.endTime - it.beginTime }.sum()
+        val filtered: List<ComponentForegroundStat> = foregroundStats.filter { stat -> stat.endTime > stat.beginTime }
+        val merged: List<ComponentForegroundStat> = mergeOverlappingIntervals(filtered)
+        return merged.map { stat -> stat.endTime - stat.beginTime }.sum()
     }
 
     /**
