@@ -276,7 +276,7 @@ class EventLogWrapper(private val context: Context) {
         val applicationTotalTime = foregroundStats
             .groupBy { it.packageName }
             .mapValues { (_, stats) ->
-                mergeOverlappingIntervals(stats).sumOf<Long> { it.endTime - it.beginTime }
+                mergeOverlappingIntervals(stats).map { it.endTime - it.beginTime }.sum()
             }
 
         val firstBeginTime = foregroundStats.first().beginTime
@@ -361,7 +361,7 @@ class EventLogWrapper(private val context: Context) {
      */
     fun getTotalForegroundTime(foregroundStats: List<ComponentForegroundStat>): Long {
         return mergeOverlappingIntervals(foregroundStats.filter { it.endTime > it.beginTime })
-            .sumOf<Long> { it.endTime - it.beginTime }
+            .map { it.endTime - it.beginTime }.sum()
     }
 
     /**
