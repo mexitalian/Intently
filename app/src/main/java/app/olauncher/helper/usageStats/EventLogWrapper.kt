@@ -404,35 +404,6 @@ class EventLogWrapper(private val context: Context) {
         return merged
     }
 
-    /**
-     * Merges overlapping or adjacent time intervals to prevent double-counting
-     * when multiple components of the same package have overlapping foreground times.
-     */
-    private fun mergeOverlappingIntervals(
-        stats: List<ComponentForegroundStat>
-    ): List<ComponentForegroundStat> {
-        if (stats.size <= 1) return stats
-
-        val sorted = stats.sortedBy { it.beginTime }
-        val merged = mutableListOf<ComponentForegroundStat>()
-        var current = sorted[0]
-
-        for (i in 1 until sorted.size) {
-            val next = sorted[i]
-            if (next.beginTime <= current.endTime) {
-                current = ComponentForegroundStat(
-                    current.beginTime,
-                    max(current.endTime, next.endTime),
-                    current.packageName
-                )
-            } else {
-                merged.add(current)
-                current = next
-            }
-        }
-        merged.add(current)
-        return merged
-    }
 
     /**
      * Stores a class name and its corresponding package.
