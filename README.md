@@ -1,45 +1,82 @@
-![Olauncher](https://repository-images.githubusercontent.com/278638069/db0acb80-661b-11eb-803e-926cae5dccb4)
+# Intently
 
+**A minimal Android launcher built around intentions.**
 
-# Olauncher | Minimal AF Launcher
+Intently turns your home screen into a short list of intentions. Give each row a
+word — Read, Listen, Create, Move — and group the apps that serve it underneath.
+Tap the row to launch the primary app, or swipe up to open the whole intention.
 
-[![Build](https://github.com/mexitalian/Intently/actions/workflows/build.yml/badge.svg)](https://github.com/mexitalian/Intently/actions/workflows/build.yml)
-AF stands for Ad-Free! :D
+Intently is an independent, GPLv3-licensed fork of
+[Olauncher](https://github.com/tanujnotes/Olauncher) by Tanuj M.
 
-[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-    alt="Get it on Play Store"
-    height="80" align="middle">](https://play.google.com/store/apps/details?id=app.olauncher)
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-    alt="Get it on F-Droid"
-    height="80" align="middle">](https://f-droid.org/packages/app.olauncher)
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroidButtonGreyBorder_nofont.png"
-    alt="Get it on IzzyOnDroid"
-    height="54" hspace="13" align="middle">](https://apt.izzysoft.de/packages/app.olauncher)
+## Features
 
-#### Install using [Play Store,](https://play.google.com/store/apps/details?id=app.olauncher) [F-Droid,](https://f-droid.org/packages/app.olauncher) [IzzyOnDroid](https://apt.izzysoft.de/packages/app.olauncher) or the [latest APK.](https://github.com/tanujnotes/Olauncher/releases/)
+- **Intention-first home screen.** Name each row, add the apps that belong to it,
+  and choose which app opens on a tap.
+- **Fast app drawer.** Search by name, with automatic launch when one result
+  matches.
+- **Useful gestures.** Swipe up for all apps, double tap to lock, and configurable
+  left/right app shortcuts.
+- **Quiet by default.** No ads, no analytics, and no data collection.
+- **Make it yours.** Text size, bold font, alignment, themes, status bar, and
+  daily wallpapers.
+- **Modern Android support.** Work profile and Private Space support on supported
+  devices.
 
-To maintain the simplicity of the launcher, a few niche features are available but hidden.
+## Install
 
-Please check out the **[About](https://tanujnotes.substack.com/p/olauncher-minimal-af-launcher?utm_source=github)** page in the Olauncher settings for a complete list of features and **FAQs**.
+Download the latest APK from
+[GitHub Releases](https://github.com/mexitalian/Intently/releases/latest).
 
-##
+Intently requires Android 7.0 (API 24) or newer. This fork is distributed through
+GitHub Releases; it is not published on Google Play or F-Droid by this project.
 
-License: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+## Gestures
 
-Developer: [@tanujnotes](https://x.com/tanujnotes)
+- **Swipe up** anywhere on the home screen to open the app drawer.
+- **Swipe up on an intention** to open its folder view.
+- **Long press** the home screen to open settings.
+- **Double tap** to lock the screen. This requires enabling Intently's
+  accessibility service.
+- **Swipe left or right** to open the optional shortcut apps.
 
-##
+## Build
 
-### Other apps from team Olauncher:
+Intently is a standard Gradle Android project.
 
-- [Pro Launcher](https://play.google.com/store/apps/details?id=app.prolauncher) - Pro version of Olauncher with extra features like widgets, weather, folders, etc.
+Requirements:
 
-- [Note to Self](https://play.google.com/store/apps/details?id=com.makenotetoself) - Free and [open source](https://github.com/jeerovan/ntsapp) notes app with chat like interface and end-to-end encryption.
+- JDK 17
+- Android SDK with API 36 installed
 
-- [Pentastic](https://play.google.com/store/apps/details?id=app.pentastic) - Free and [open source](https://github.com/tanujnotes/Pentastic). A minimal tasks, notes and reminders app.
+```sh
+./gradlew testDebugUnitTest
+./gradlew assembleDebug
+```
 
-- [Supernova](https://github.com/tanujnotes/Supernova) - Free and [open source](https://github.com/tanujnotes/Supernova) alternative of Nova Launcher.
+The debug APK is written to `app/build/outputs/apk/debug/`.
 
-##
+## Privacy
 
-Thank you!
+Intently does not include analytics, advertising, or crash-reporting SDKs. App
+settings and intention data stay on the device. The optional daily wallpaper
+feature downloads a wallpaper feed and image over HTTPS; no personal data is sent
+with that request. The wallpaper feed is currently inherited from Olauncher.
+
+The accessibility service is optional and is used only for the double-tap-to-lock
+gesture. Usage-access data, when enabled, is processed on the device and is not
+uploaded.
+
+## Attribution and license
+
+Intently is derived from [Olauncher](https://github.com/tanujnotes/Olauncher),
+originally created by Tanuj M ([@tanujnotes](https://github.com/tanujnotes)) and
+improved by its contributors. The original work is licensed under the GNU General
+Public License v3.0. Original copyright remains with the Olauncher authors and
+contributors; modifications in this fork are copyright their respective authors.
+
+This project is distributed under the
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+See [LICENSE](LICENSE) for the full text.
+
+Intently is not affiliated with or endorsed by the Olauncher project.

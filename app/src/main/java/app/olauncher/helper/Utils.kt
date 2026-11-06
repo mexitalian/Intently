@@ -271,7 +271,7 @@ fun getUserHandleFromString(context: Context, userHandleString: String): UserHan
     return android.os.Process.myUserHandle()
 }
 
-fun isOlauncherDefault(context: Context): Boolean {
+fun isIntentlyDefault(context: Context): Boolean {
     val launcherPackageName = getDefaultLauncherPackage(context)
     return BuildConfig.APPLICATION_ID == launcherPackageName
 }
@@ -601,7 +601,8 @@ fun Context.getColorFromAttr(
 
 fun Context.shareApp() {
     val message = getString(R.string.are_you_using_your_phone_or_is_your_phone_using_you) +
-            "\n" + Constants.URL_OLAUNCHER_PLAY_STORE
+            "\n\nIntently is a minimal launcher built around intentions.\n" +
+            Constants.URL_INTENTLY_RELEASES
     val sendIntent: Intent = Intent().apply {
         action = Intent.ACTION_SEND
         putExtra(Intent.EXTRA_TEXT, message)
@@ -610,17 +611,6 @@ fun Context.shareApp() {
 
     val shareIntent = Intent.createChooser(sendIntent, null)
     startActivity(shareIntent)
-}
-
-fun Context.rateApp() {
-    val intent = Intent(
-        Intent.ACTION_VIEW,
-        Constants.URL_OLAUNCHER_PLAY_STORE.toUri()
-    )
-    var flags = Intent.FLAG_ACTIVITY_NO_HISTORY or Intent.FLAG_ACTIVITY_MULTIPLE_TASK
-    flags = flags or Intent.FLAG_ACTIVITY_NEW_DOCUMENT
-    intent.addFlags(flags)
-    startActivity(intent)
 }
 
 @RequiresApi(Build.VERSION_CODES.N_MR1)
