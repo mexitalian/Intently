@@ -51,8 +51,6 @@
     <string name="system_default">System</string>
     <string name="dark">Mörkt</string>
     <string name="light">Ljust</string>
-    <string name="welcome_to_intently_settings">Välkommen till inställningarna!
-        \n\nKom ihåg, om du har några frågor har vår sida Om oss svaret.</string>
     <string name="share_message">Vi behöver din hjälp! Vi tycker att alla borde känna till Intently och dess fördelar, men vi klarar det inte på egen hand.\n\nKan du dela Intently med dina vänner, din familj och dina följare? Tack för ditt stöd! ❤</string>
     <string name="keyboard_message">Hejsan, tangentbordet är det snabbaste sättet att hitta och starta appar i Intently. Får vi be dig att behålla denna På i några dagar till innan du bestämmer dig?
         \n\nValet är alltid ditt.</string>
@@ -71,9 +69,9 @@
     <string name="date_only">Endast datum</string>
     <string name="bottom_on">Botten: På</string>
     <string name="bottom_off">Botten: Av</string>
-    <string name="please_set_intently_as_default_first">Vänligen ange Intently som förvald först</string>
     <string name="tip_start_typing_for_rename">Tips: Börja skriv för BYT NAMN-alternativ för appen</string>
     <string name="hidden_apps_message">Observera: Tryck på \'Intently\' högst upp på denna Inställningar-sida för att hitta dina dolda appar.\n\nMer information finns på vår Om-sida.</string>
+    <string name="accessibility_permission">Behörighet för tillgänglighet</string>
     <string name="accessibility_disclosure">Vänligen sätt på Intentlys tillgänglighetstjänst i din enhets inställningar för att aktivera gesten dubbeltryck för att låsa.\n\nObservera att denna tjänst bara används för just denna funktion. Vår tillgänglighetstjänst samlar inte in eller delar några data.</string>
     <string name="accept">Godkänn</string>
     <string name="permission">Behörighet</string>
@@ -84,6 +82,7 @@
     <string name="not_working"><u>Fungerar inte?</u></string>
     <string name="info">Info</string>
     <string name="delete">Avinstallera</string>
+    <string name="remove">Ta bort</string>
     <string name="text_size">Textstorlek</string>
     <string name="enabled">Aktiverad</string>
     <string name="disabled">Inaktiverad</string>
@@ -102,14 +101,12 @@
     <string name="swipe_left_app_disabled">Vänstersvepsapp inaktiverad</string>
     <string name="swipe_right_app_disabled">Högersvepsapp inaktiverad</string>
     <string name="your_wallpaper_will_update_shortly">Din bakgrundsbild kommer att uppdateras inom kort</string>
-    <string name="intently_is_not_default_launcher">Intently är inte förvald. Uppdatering av bakgrundsbild kommer att misslyckas.</string>
     <string name="long_press_to_enable">Långtryck för att aktivera</string>
     <string name="no_hidden_apps">Inga dolda appar</string>
     <string name="hidden_apps">Dolda appar</string>
     <string name="adapter_show">Visa</string>
     <string name="adapter_hide">Dölj</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Använder du din telefon, eller använder din telefon dig?</string>
-    <string name="about_intently">Om och vanliga frågor</string>
     <string name="screen_time">Skärmtid</string>
     <string name="learn_more">Läs mer</string>
     <string name="did_you_know">Visste du?</string>
@@ -131,4 +128,9 @@
     <string name="unable_to_open_shortcut">Det går inte att öppna genvägen</string>
     <string name="unable_to_open_app_info">Kunde inte öppna appinfon</string>
     <string name="bold_font">Fetstil</string>
-</resources><!-- Swedish -->
+    <string name="welcome_to_intently_settings">Välkommen till inställningarna!
+        \n\nKom ihåg, om du har några frågor har vår sida Om oss svaret.</string>
+    <string name="please_set_intently_as_default_first">Vänligen ange Intently som förvald först</string>
+    <string name="intently_is_not_default_launcher">Intently är inte förvald. Uppdatering av bakgrundsbild kommer att misslyckas.</string>
+    <string name="about_intently">Om och vanliga frågor</string>
+</resources>

@@ -51,8 +51,6 @@
     <string name="system_default">Sistem</string>
     <string name="dark">Întunecat</string>
     <string name="light">Luminos</string>
-    <string name="welcome_to_intently_settings">Bine ai venit în setări!
-        \n\nȚine minte, dacă ai întrebări, pagina Despre are răspunsul.</string>
     <string name="share_message">Avem nevoie de ajutorul tău! Credem că toată lumea ar trebui să știe despre Intently și beneficiile sale, dar nu putem face asta singuri.
         \n\nAi putea distribui Intently prietenilor, familiei și urmăritorilor tăi? Îți mulțumim pentru sprijin! ❤</string>
     <string name="keyboard_message">Salut, tastatura este cea mai rapidă modalitate de a găsi și lansa aplicații în Intently. Te putem ruga să o lași activată câteva zile în plus și apoi să decizi?
@@ -71,9 +69,9 @@
     <string name="date_only">Doar data</string>
     <string name="bottom_on">Jos: Activat</string>
     <string name="bottom_off">Jos: Dezactivat</string>
-    <string name="please_set_intently_as_default_first">Te rugăm să setezi mai întâi Intently ca implicit</string>
     <string name="tip_start_typing_for_rename">Sfat: Începe să tastezi pentru opțiunea de REDENUMIRE aplicație</string>
     <string name="hidden_apps_message">Notă: Atinge \'Intently\' în partea de sus a acestei pagini de setări pentru a găsi aplicațiile tale ascunse.\n\nMai multe detalii sunt disponibile pe pagina noastră Despre.</string>
+    <string name="accessibility_permission">Permisiune de accesibilitate</string>
     <string name="accessibility_disclosure">Te rugăm să activezi serviciul de accesibilitate Intently din setările dispozitivului pentru a activa gestul Atinge dublu pentru blocare.
     \n\nTe rugăm să reții că acest serviciu este utilizat doar pentru această funcție specifică. Serviciul nostru de accesibilitate nu colectează și nu partajează date.</string>
     <string name="accept">Acceptă</string>
@@ -84,6 +82,7 @@
     <string name="not_working"><u>Nu funcționează?</u></string>
     <string name="info">Informații</string>
     <string name="delete">Dezinstalează</string>
+    <string name="remove">Elimină</string>
     <string name="text_size">Dimensiune text</string>
     <string name="enabled">Activat</string>
     <string name="disabled">Dezactivat</string>
@@ -103,14 +102,12 @@
     <string name="swipe_left_app_disabled">Aplicație la glisare stânga dezactivată</string>
     <string name="swipe_right_app_disabled">Aplicație la glisare dreapta dezactivată</string>
     <string name="your_wallpaper_will_update_shortly">Fundalul tău se va actualiza în curând</string>
-    <string name="intently_is_not_default_launcher">Intently nu este implicit. Actualizarea fundalului va eșua.</string>
     <string name="long_press_to_enable">Apasă lung pentru a activa</string>
     <string name="no_hidden_apps">Nicio aplicație ascunsă</string>
     <string name="hidden_apps">Aplicații ascunse</string>
     <string name="adapter_show">Afișează</string>
     <string name="adapter_hide">Ascunde</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Îți folosești telefonul sau telefonul te folosește pe tine?</string>
-    <string name="about_intently">Despre și întrebări frecvente</string>
     <string name="screen_time">Timp pe ecran</string>
     <string name="learn_more">Află mai multe</string>
     <string name="did_you_know">Știai că?</string>
@@ -131,4 +128,9 @@
     <string name="shortcut_not_found">Comanda rapidă nu a fost găsită</string>
     <string name="unable_to_open_shortcut">Nu se poate deschide comanda rapidă</string>
     <string name="bold_font">Font îngroșat</string>
+    <string name="welcome_to_intently_settings">Bine ai venit în setări!
+        \n\nȚine minte, dacă ai întrebări, pagina Despre are răspunsul.</string>
+    <string name="please_set_intently_as_default_first">Te rugăm să setezi mai întâi Intently ca implicit</string>
+    <string name="intently_is_not_default_launcher">Intently nu este implicit. Actualizarea fundalului va eșua.</string>
+    <string name="about_intently">Despre și întrebări frecvente</string>
 </resources>

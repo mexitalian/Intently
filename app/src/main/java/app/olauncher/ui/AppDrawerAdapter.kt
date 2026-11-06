@@ -23,7 +23,6 @@ import app.olauncher.databinding.AdapterPrivateSpaceHeaderBinding
 import app.olauncher.helper.hideKeyboard
 import app.olauncher.helper.isSystemApp
 import app.olauncher.helper.showKeyboard
-import java.text.Normalizer
 
 class AppDrawerAdapter(
     private var flag: Int,
@@ -64,6 +63,7 @@ class AppDrawerAdapter(
     var allowAutoLaunch = true
     private val diacriticsRegex = Regex("\\p{InCombiningDiacriticalMarks}+")
     private val separatorsRegex = Regex("[-_+,.`'\\s\\p{Z}]")
+    private var autoLaunchedQuery: String? = null
     private val appFilter = createAppFilter()
     private val myUserHandle = android.os.Process.myUserHandle()
 
@@ -151,14 +151,17 @@ class AppDrawerAdapter(
                     val items = it as MutableList<AppModel>
                     appFilteredList = items
                     submitList(appFilteredList) {
-                        autoLaunch()
+                        autoLaunch(constraint?.toString())
                     }
                 }
             }
         }
     }
 
-    private fun autoLaunch() {
+    private fun autoLaunch(query: String?) {
+        // App list refreshes re-run the current query, so launch only once until it changes
+        if (query == autoLaunchedQuery) return
+        autoLaunchedQuery = null
         try {
             if (itemCount == 1
                 && autoLaunch
@@ -166,7 +169,12 @@ class AppDrawerAdapter(
                 && flag == Constants.FLAG_LAUNCH_APP
                 && appFilteredList.isNotEmpty()
                 && appFilteredList[0] !is AppModel.PrivateSpaceHeader
-            ) appClickListener(appFilteredList[0])
+                // Skip the empty bottom-padding item, left alone when the app list is empty
+                && appFilteredList[0].appPackage.isNotEmpty()
+            ) {
+                autoLaunchedQuery = query
+                appClickListener(appFilteredList[0])
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -201,7 +209,7 @@ class AppDrawerAdapter(
     }
 
     fun launchFirstInList() {
-        val first = appFilteredList.firstOrNull { it !is AppModel.PrivateSpaceHeader }
+        val first = appFilteredList.firstOrNull { it !is AppModel.PrivateSpaceHeader && it.appPackage.isNotEmpty() }
         if (first != null) appClickListener(first)
     }
 
@@ -256,6 +264,10 @@ class AppDrawerAdapter(
                         true -> 1.0f
                         false -> 0.5f
                     }
+                    appDelete.text = if (appModel is AppModel.PinnedShortcut)
+                        root.context.getString(R.string.remove)
+                    else
+                        root.context.getString(R.string.delete)
                     appHide.text = if (flag == Constants.FLAG_HIDDEN_APPS)
                         root.context.getString(R.string.adapter_show)
                     else

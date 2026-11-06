@@ -51,8 +51,6 @@
     <string name="system_default">Hệ thống</string>
     <string name="dark">Tối</string>
     <string name="light">Sáng</string>
-    <string name="welcome_to_intently_settings">Chào mừng bạn đến với phần cài đặt!
-        \n\nHãy nhớ rằng, nếu bạn có bất kỳ câu hỏi nào, trang Giới thiệu sẽ có câu trả lời.</string>
     <string name="share_message">Chúng tôi cần sự giúp đỡ của bạn! Chúng tôi tin rằng mọi người nên biết về Intently và những lợi ích của nó, nhưng chúng tôi không thể tự làm một mình.
         \n\nBạn có thể chia sẻ Intently với bạn bè, gia đình và người theo dõi của bạn không? Cảm ơn bạn đã ủng hộ! ❤</string>
     <string name="keyboard_message">Xin chào, bàn phím là cách nhanh nhất để tìm và mở ứng dụng trong Intently. Chúng tôi có thể xin bạn giữ tính năng này bật thêm vài ngày rồi quyết định sau không?
@@ -71,9 +69,9 @@
     <string name="date_only">Chỉ ngày</string>
     <string name="bottom_on">Dưới cùng: Bật</string>
     <string name="bottom_off">Dưới cùng: Tắt</string>
-    <string name="please_set_intently_as_default_first">Vui lòng đặt Intently làm mặc định trước</string>
     <string name="tip_start_typing_for_rename">Mẹo: Bắt đầu gõ để có tùy chọn ĐỔI TÊN ứng dụng</string>
     <string name="hidden_apps_message">Lưu ý: Nhấn vào \'Intently\' ở đầu trang Cài đặt này để tìm các ứng dụng ẩn của bạn.\n\nCó thêm chi tiết trên trang Giới thiệu của chúng tôi.</string>
+    <string name="accessibility_permission">Quyền trợ năng</string>
     <string name="accessibility_disclosure">Vui lòng bật dịch vụ trợ năng của Intently trong cài đặt thiết bị của bạn để bật cử chỉ Chạm hai lần để khóa.
     \n\nXin lưu ý rằng dịch vụ này chỉ được sử dụng cho tính năng cụ thể này. Dịch vụ trợ năng của chúng tôi không thu thập hoặc chia sẻ bất kỳ dữ liệu nào.</string>
     <string name="accept">Đồng ý</string>
@@ -84,6 +82,7 @@
     <string name="not_working"><u>Không hoạt động?</u></string>
     <string name="info">Thông tin</string>
     <string name="delete">Gỡ cài đặt</string>
+    <string name="remove">Xóa</string>
     <string name="text_size">Cỡ chữ</string>
     <string name="enabled">Đã bật</string>
     <string name="disabled">Đã tắt</string>
@@ -103,14 +102,12 @@
     <string name="swipe_left_app_disabled">Đã tắt ứng dụng khi vuốt trái</string>
     <string name="swipe_right_app_disabled">Đã tắt ứng dụng khi vuốt phải</string>
     <string name="your_wallpaper_will_update_shortly">Hình nền của bạn sẽ sớm được cập nhật</string>
-    <string name="intently_is_not_default_launcher">Intently không phải là mặc định. Việc cập nhật hình nền sẽ thất bại.</string>
     <string name="long_press_to_enable">Nhấn giữ để bật</string>
     <string name="no_hidden_apps">Không có ứng dụng ẩn</string>
     <string name="hidden_apps">Ứng dụng ẩn</string>
     <string name="adapter_show">Hiện</string>
     <string name="adapter_hide">Ẩn</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Bạn đang sử dụng điện thoại của mình, hay điện thoại đang sử dụng bạn?</string>
-    <string name="about_intently">Giới thiệu và câu hỏi thường gặp</string>
     <string name="screen_time">Thời gian sử dụng màn hình</string>
     <string name="learn_more">Tìm hiểu thêm</string>
     <string name="did_you_know">Bạn có biết?</string>
@@ -131,4 +128,9 @@
     <string name="shortcut_not_found">Không tìm thấy lối tắt</string>
     <string name="unable_to_open_shortcut">Không thể mở lối tắt</string>
     <string name="bold_font">Phông chữ đậm</string>
+    <string name="welcome_to_intently_settings">Chào mừng bạn đến với phần cài đặt!
+        \n\nHãy nhớ rằng, nếu bạn có bất kỳ câu hỏi nào, trang Giới thiệu sẽ có câu trả lời.</string>
+    <string name="please_set_intently_as_default_first">Vui lòng đặt Intently làm mặc định trước</string>
+    <string name="intently_is_not_default_launcher">Intently không phải là mặc định. Việc cập nhật hình nền sẽ thất bại.</string>
+    <string name="about_intently">Giới thiệu và câu hỏi thường gặp</string>
 </resources>

@@ -51,8 +51,6 @@
     <string name="system_default">Järjestelmä</string>
     <string name="dark">Tumma</string>
     <string name="light">Vaalea</string>
-    <string name="welcome_to_intently_settings">Tervetuloa asetuksiin!
-        \n\nMuista, että jos sinulla on kysyttävää, Tietoja-sivulta löytyy vastaus.</string>
     <string name="share_message">Tarvitsemme apuasi! Uskomme, että kaikkien pitäisi tietää Intentlyista ja sen hyödyistä, mutta emme voi tehdä sitä yksin.
         \n\nVoisitko jakaa Intentlyin ystävillesi, perheellesi ja seuraajillesi? Kiitos tuestasi! ❤</string>
     <string name="keyboard_message">Hei, näppäimistö on nopein tapa löytää ja avata sovelluksia Intentlyissa. Voisitko pitää sen päällä vielä muutaman päivän ja päättää sitten?
@@ -71,9 +69,9 @@
     <string name="date_only">Vain päivämäärä</string>
     <string name="bottom_on">Alaosa: Päällä</string>
     <string name="bottom_off">Alaosa: Pois</string>
-    <string name="please_set_intently_as_default_first">Aseta ensin Intently oletukseksi</string>
     <string name="tip_start_typing_for_rename">Vinkki: Aloita kirjoittaminen saadaksesi sovelluksen NIMEÄ UUDELLEEN -vaihtoehdon</string>
     <string name="hidden_apps_message">Huomio: Napauta \'Intently\' tämän asetussivun yläreunassa löytääksesi piilotetut sovelluksesi.\n\nLisätietoja Tietoja-sivulla.</string>
+    <string name="accessibility_permission">Esteettömyyslupa</string>
     <string name="accessibility_disclosure">Ota Intentlyin esteettömyyspalvelu käyttöön laitteesi asetuksista, jotta voit ottaa käyttöön Lukitse kaksoisnapautuksella -eleen.\n\nHuomaa, että tätä palvelua käytetään vain tähän tiettyyn ominaisuuteen. Esteettömyyspalvelumme ei kerää tai jaa mitään tietoja.</string>
     <string name="accept">Hyväksy</string>
     <string name="permission">Käyttöoikeus</string>
@@ -83,6 +81,7 @@
     <string name="not_working"><u>Eikö toimi?</u></string>
     <string name="info">Tiedot</string>
     <string name="delete">Poista asennus</string>
+    <string name="remove">Poista</string>
     <string name="text_size">Tekstin koko</string>
     <string name="enabled">Käytössä</string>
     <string name="disabled">Ei käytössä</string>
@@ -102,14 +101,12 @@
     <string name="swipe_left_app_disabled">Sovellus vasemmalle pyyhkäisyllä poistettu käytöstä</string>
     <string name="swipe_right_app_disabled">Sovellus oikealle pyyhkäisyllä poistettu käytöstä</string>
     <string name="your_wallpaper_will_update_shortly">Taustakuvasi päivittyy pian</string>
-    <string name="intently_is_not_default_launcher">Intently ei ole oletuksena. Taustakuvan päivitys epäonnistuu.</string>
     <string name="long_press_to_enable">Pitkä painallus ottaaksesi käyttöön</string>
     <string name="no_hidden_apps">Ei piilotettuja sovelluksia</string>
     <string name="hidden_apps">Piilotetut sovellukset</string>
     <string name="adapter_show">Näytä</string>
     <string name="adapter_hide">Piilota</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Käytätkö puhelintasi vai käyttääkö puhelin sinua?</string>
-    <string name="about_intently">Tietoja ja usein kysytyt kysymykset</string>
     <string name="screen_time">Ruutuaika</string>
     <string name="learn_more">Lue lisää</string>
     <string name="did_you_know">Tiesitkö?</string>
@@ -130,4 +127,9 @@
     <string name="shortcut_not_found">Pikakuvaketta ei löytynyt</string>
     <string name="unable_to_open_shortcut">Pikakuvaketta ei voida avata</string>
     <string name="bold_font">Lihavoitu fontti</string>
+    <string name="welcome_to_intently_settings">Tervetuloa asetuksiin!
+        \n\nMuista, että jos sinulla on kysyttävää, Tietoja-sivulta löytyy vastaus.</string>
+    <string name="please_set_intently_as_default_first">Aseta ensin Intently oletukseksi</string>
+    <string name="intently_is_not_default_launcher">Intently ei ole oletuksena. Taustakuvan päivitys epäonnistuu.</string>
+    <string name="about_intently">Tietoja ja usein kysytyt kysymykset</string>
 </resources>

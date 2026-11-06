@@ -18,7 +18,6 @@
     <string name="share_now">Bagikan sekarang</string>
     <string name="follow">Ikuti</string>
     <string name="email">Surel</string>
-
     <string name="donate">Donasi</string>
     <string name="swipe_up_for_apps">1. Geser ke atas untuk semua aplikasi\n2. Tekan lama di mana saja untuk pengaturan</string>
     <string name="apps_on_home_screen">Aplikasi di layar awal</string>
@@ -52,8 +51,6 @@
     <string name="system_default">Sistem</string>
     <string name="dark">Gelap</string>
     <string name="light">Terang</string>
-    <string name="welcome_to_intently_settings">Selamat datang di pengaturan!
-        \n\nIngat, jika Anda memiliki pertanyaan, halaman Tentang kami memiliki jawabannya.</string>
     <string name="share_message">Kami membutuhkan bantuan Anda! Kami percaya semua orang harus tahu tentang Intently dan manfaatnya, tetapi kami tidak dapat melakukannya sendiri.\n\nBisakah Anda membagikan Intently kepada teman, keluarga, dan pengikut Anda? Terima kasih atas dukungan Anda! ❤</string>
     <string name="keyboard_message">Hai, keyboard adalah cara tercepat untuk menemukan dan membuka aplikasi di Intently. Bisakah kami meminta Anda untuk tetap mengaktifkannya selama beberapa hari lagi lalu memutuskan?\n\nPilihan selalu ada di tangan Anda.</string>
     <string name="digital_wellbeing_message">Jika Anda ingin menetapkan batas waktu untuk aplikasi tertentu, fitur Digital Wellbeing Android dapat membantu Anda melakukannya.
@@ -71,9 +68,9 @@
     <string name="date_only">Tanggal saja</string>
     <string name="bottom_on">Bawah: Nyala</string>
     <string name="bottom_off">Bawah: Mati</string>
-    <string name="please_set_intently_as_default_first">Silakan atur Intently sebagai peluncur default Anda terlebih dahulu</string>
     <string name="tip_start_typing_for_rename">Tip: Mulailah mengetik untuk opsi RENAME aplikasi</string>
     <string name="hidden_apps_message">Catatan: Ketuk \'Intently\' di bagian atas halaman Pengaturan ini untuk menemukan aplikasi tersembunyi Anda.\n\nRincian lebih lanjut tersedia di halaman Tentang kami.</string>
+    <string name="accessibility_permission">Izin aksesibilitas</string>
     <string name="accessibility_disclosure">Harap aktifkan layanan aksesibilitas Intently di pengaturan perangkat Anda untuk mengaktifkan gerakan ketuk dua kali untuk mengunci.\n\nHarap perhatikan bahwa layanan ini hanya digunakan untuk fitur ini saja. Layanan aksesibilitas kami tidak mengumpulkan atau membagikan data apa pun.</string>
     <string name="accept">Terima</string>
     <string name="permission">Izin</string>
@@ -84,6 +81,7 @@
     <string name="not_working"><u>Tidak bekerja?</u></string>
     <string name="info">Info</string>
     <string name="delete">Uninstal</string>
+    <string name="remove">Hapus</string>
     <string name="text_size">Ukuran teks</string>
     <string name="enabled">Diaktifkan</string>
     <string name="disabled">Dinonaktifkan</string>
@@ -102,14 +100,12 @@
     <string name="swipe_left_app_disabled">Aplikasi geser ke kiri dinonaktifkan</string>
     <string name="swipe_right_app_disabled">Aplikasi geser ke kanan dinonaktifkan</string>
     <string name="your_wallpaper_will_update_shortly">Wallpaper Anda akan segera diperbarui</string>
-    <string name="intently_is_not_default_launcher">Intently bukan peluncur default.\nPembaruan wallpaper harian mungkin gagal.</string>
     <string name="long_press_to_enable">Tekan lama untuk mengaktifkan</string>
     <string name="no_hidden_apps">Aplikasi tersembunyi tidak ada</string>
     <string name="hidden_apps">Aplikasi tersembunyi</string>
     <string name="adapter_show">Tampilkan</string>
     <string name="adapter_hide">Sembunyikan</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Apakah Anda menggunakan ponsel Anda, atau ponsel Anda menggunakan Anda?</string>
-    <string name="about_intently">Tentang dan FAQ</string>
     <string name="learn_more">Pelajari lebih lanjut</string>
     <string name="screen_time">Waktu layar</string>
     <string name="did_you_know">Tahukah Anda?</string>
@@ -131,4 +127,9 @@
     <string name="unable_to_open_shortcut">Tidak dapat membuka pintasan</string>
     <string name="unable_to_open_app_info">Tidak dapat membuka info aplikasi</string>
     <string name="bold_font">Font tebal</string>
-</resources><!-- Indonesian -->
+    <string name="welcome_to_intently_settings">Selamat datang di pengaturan!
+        \n\nIngat, jika Anda memiliki pertanyaan, halaman Tentang kami memiliki jawabannya.</string>
+    <string name="please_set_intently_as_default_first">Silakan atur Intently sebagai peluncur default Anda terlebih dahulu</string>
+    <string name="intently_is_not_default_launcher">Intently bukan peluncur default.\nPembaruan wallpaper harian mungkin gagal.</string>
+    <string name="about_intently">Tentang dan FAQ</string>
+</resources>

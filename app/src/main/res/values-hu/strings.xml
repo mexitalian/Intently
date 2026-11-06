@@ -51,10 +51,7 @@
     <string name="system_default">Rendszer</string>
     <string name="dark">Sötét</string>
     <string name="light">Világos</string>
-    <string name="welcome_to_intently_settings">Üdvözöljük a beállításokban!
-        \n\nNe feledje, ha bármilyen kérdése van, az „Rólunk” oldalunk tartalmazza a választ.</string>
     <string name="share_message">Szükségünk van a segítségére! Úgy gondoljuk, mindenkinek tudnia kellene az Intently-ről és előnyeiről, de egyedül nem tudjuk elérni.\n\nMegosztaná az Intently-t barátaival, családjával és követőivel? Köszönjük a támogatását! ❤</string>
-    <!--        \n\nHa van egy kis ideje, kérjük, ossza meg másokkal is az Intently-t. Az Intently-nek szüksége van emberekre. De ami még fontosabb, az embereknek szüksége van az Intently-re..</string>-->
     <string name="keyboard_message">Üdvözöljük! A billentyűzet a leggyorsabb módja az alkalmazások megtalálásához és elindításához az Intentlyben. Megkérhetjük, hogy hagyja bekapcsolva még néhány napig, és utána döntsön?
         \n\nA választás mindig az Öné.</string>
     <string name="digital_wellbeing_message">Ha időkorlátokat szeretne beállítani bizonyos alkalmazásokhoz, az Android Digital Wellbeing funkciója segíthet ebben.
@@ -72,9 +69,9 @@
     <string name="date_only">Csak dátum</string>
     <string name="bottom_on">Alsó: Be</string>
     <string name="bottom_off">Alsó: Ki</string>
-    <string name="please_set_intently_as_default_first">Kérjük, először állítsa be az Intently-t alapértelmezettként</string>
     <string name="tip_start_typing_for_rename">Tipp: Kezdjen el gépelni az alkalmazás ÁTNEVEZÉSE opcióhoz</string>
     <string name="hidden_apps_message">Megjegyzés: A rejtett alkalmazások megtalálásához érintse meg az \"Intently\" elemet ennek a beállítás oldalnak a tetején.\n\nTöbb részlet elérhető a Névjegy oldalon.</string>
+    <string name="accessibility_permission">Kisegítő lehetőségek engedély</string>
     <string name="accessibility_disclosure">Kérjük, kapcsolja be az Intently kisegítő lehetőségek szolgáltatását az eszköz beállításaiban a dupla koppintás a lezáráshoz mozdulat engedélyezéséhez.\n\nKérjük, vegye figyelembe, hogy ez a szolgáltatás csak ehhez az egy funkcióhoz használatos. Kisegítő lehetőségek szolgáltatásunk nem gyűjt és nem oszt meg semmilyen adatot.</string>
     <string name="accept">Elfogad</string>
     <string name="permission">Engedély</string>
@@ -85,6 +82,7 @@
     <string name="not_working"><u>Nem működik?</u></string>
     <string name="info">Információ</string>
     <string name="delete">Eltávolítás</string>
+    <string name="remove">Törlés</string>
     <string name="text_size">Szövegméret</string>
     <string name="enabled">Engedélyezve</string>
     <string name="disabled">Letiltva</string>
@@ -103,14 +101,12 @@
     <string name="swipe_left_app_disabled">Balra simítva indítható alkalmazás letiltva</string>
     <string name="swipe_right_app_disabled">Jobbra simítva indítható alkalmazás letiltva</string>
     <string name="your_wallpaper_will_update_shortly">A háttérkép hamarosan frissülni fog</string>
-    <string name="intently_is_not_default_launcher">Az Intently nem az alapértelmezett indító.\nA napi háttérkép frissítés sikertelen lehet.</string>
     <string name="long_press_to_enable">Hosszan nyomva tartás az engedélyezéshez</string>
     <string name="no_hidden_apps">Nincsenek rejtett alkalmazások</string>
     <string name="hidden_apps">Rejtett alkalmazások</string>
     <string name="adapter_show">Megjelenítés</string>
     <string name="adapter_hide">Elrejtés</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">Ön használja a telefonját, vagy a telefonja használja Önt?</string>
-    <string name="about_intently">Névjegy és GYIK</string>
     <string name="screen_time">Képernyőidő</string>
     <string name="learn_more">Tudjon meg többet</string>
     <string name="did_you_know">Tudta?</string>
@@ -132,4 +128,9 @@
     <string name="unable_to_open_shortcut">Nem lehet megnyitni a parancsikont</string>
     <string name="unable_to_open_app_info">Nem lehet megnyitni az alkalmazás adatait</string>
     <string name="bold_font">Félkövér betűtípus</string>
-</resources><!-- Hungarian -->
+    <string name="welcome_to_intently_settings">Üdvözöljük a beállításokban!
+        \n\nNe feledje, ha bármilyen kérdése van, az „Rólunk” oldalunk tartalmazza a választ.</string>
+    <string name="please_set_intently_as_default_first">Kérjük, először állítsa be az Intently-t alapértelmezettként</string>
+    <string name="intently_is_not_default_launcher">Az Intently nem az alapértelmezett indító.\nA napi háttérkép frissítés sikertelen lehet.</string>
+    <string name="about_intently">Névjegy és GYIK</string>
+</resources>

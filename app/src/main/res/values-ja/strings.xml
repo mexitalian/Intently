@@ -16,14 +16,13 @@
     <string name="app_drawer_tips">ヒント: アプリ名の入力を開始すると、アプリが自動的に起動します</string>
     <string name="okay">OK</string>
     <string name="cool">いいね！</string>
-
     <string name="tip_start_typing_for_rename">ヒント: 入力を開始するとアプリの名前変更オプションが表示されます</string>
     <string name="your_wallpaper_will_update_shortly">壁紙は間もなく更新されます</string>
-    <string name="intently_is_not_default_launcher">Intently はデフォルトのランチャーではありません。壁紙の更新は失敗します。</string>
     <string name="long_press_to_enable">長押しして有効にします</string>
     <string name="no_hidden_apps">非表示のアプリはありません</string>
     <string name="hidden_apps">非表示のアプリ</string>
     <string name="hidden_apps_message">注: この設定ページの上部にある「Intently」をタップすると、非表示のアプリを確認できます。\n\n詳細については「アプリについて」ページをご覧ください。</string>
+    <string name="accessibility_permission">ユーザー補助の権限</string>
     <string name="accessibility_disclosure">ダブルタップでロックのジェスチャーを有効にするには、デバイスの設定で Intently のユーザー補助サービスをオンにしてください。\n\nこのサービスはこの機能にのみ使用されます。当社のユーザー補助サービスはデータを収集したり共有したりすることはありません。</string>
     <string name="accept">同意する</string>
     <string name="permission">許可</string>
@@ -34,6 +33,7 @@
     <string name="not_working"><u>動作しませんか？</u></string>
     <string name="info">情報</string>
     <string name="delete">アンインストール</string>
+    <string name="remove">削除</string>
     <string name="text_size">文字サイズ</string>
     <string name="enabled">有効</string>
     <string name="disabled">無効</string>
@@ -60,7 +60,6 @@
     <string name="share_now">今すぐ共有</string>
     <string name="follow">フォロー</string>
     <string name="email">Eメール</string>
-
     <string name="donate">寄付</string>
     <string name="swipe_up_for_apps">1. 上にスワイプしてすべてのアプリを表示します\n2. 設定を行うには任意の場所を長押しします</string>
     <string name="apps_on_home_screen">ホーム画面のアプリ</string>
@@ -82,7 +81,6 @@
     <string name="system_default">システム</string>
     <string name="dark">ダーク</string>
     <string name="light">ライト</string>
-    <string name="welcome_to_intently_settings">設定へようこそ！\n\n質問がある場合は、「アプリについて」ページに答えがあります。</string>
     <string name="share_message">皆さんの助けが必要です！ Intently とその良さを誰もが知るべきだと考えていますが、私たちだけでは実現できません。\n\nIntently を友人、家族、フォロワーと共有していただけませんか？ ご支援ありがとうございます！ ❤</string>
     <string name="keyboard_message">こんにちは、キーボードは Intently でアプリを見つけて起動する最も速い方法です。あと数日間オンにしたままにして、それから判断していただけませんか？\n\n選択は常にあなた次第です。</string>
     <string name="digital_wellbeing_message">特定のアプリに時間制限を設定したい場合は、Android の Digital Wellbeing 機能を使用すると便利です。
@@ -100,7 +98,6 @@
     <string name="date_only">日付のみ</string>
     <string name="bottom_on">下: オン</string>
     <string name="bottom_off">下: オフ</string>
-    <string name="please_set_intently_as_default_first">まず Intently をデフォルトのランチャーとして設定してください</string>
     <string name="app_not_found">アプリが見つかりません</string>
     <string name="unable_to_launch_app">アプリを起動できません</string>
     <string name="search_for_Launcher_or_home_app">ランチャーまたはホームアプリを検索する</string>
@@ -110,7 +107,6 @@
     <string name="screen_time">スクリーンタイム</string>
     <string name="swipe_right_app_disabled">右スワイプアプリを無効にしました</string>
     <string name="are_you_using_your_phone_or_is_your_phone_using_you">あなたは電話を使っていますか、それともあなたの電話があなたを使っていますか？</string>
-    <string name="about_intently">アプリについてと FAQ</string>
     <string name="learn_more">もっと詳しく知る</string>
     <string name="did_you_know">知っていましたか？</string>
     <string name="alignment_changed">配置を変更しました ✅</string>
@@ -131,4 +127,8 @@
     <string name="unable_to_open_shortcut">ショートカットを開けません</string>
     <string name="unable_to_open_app_info">アプリ情報を開けません</string>
     <string name="bold_font">太字フォント</string>
-</resources> <!-- Japanese -->
+    <string name="intently_is_not_default_launcher">Intently はデフォルトのランチャーではありません。壁紙の更新は失敗します。</string>
+    <string name="welcome_to_intently_settings">設定へようこそ！\n\n質問がある場合は、「アプリについて」ページに答えがあります。</string>
+    <string name="please_set_intently_as_default_first">まず Intently をデフォルトのランチャーとして設定してください</string>
+    <string name="about_intently">アプリについてと FAQ</string>
+</resources>

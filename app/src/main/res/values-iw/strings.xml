@@ -50,7 +50,6 @@
     <string name="system_default">מערכת</string>
     <string name="dark">כהה</string>
     <string name="light">בהירה</string>
-    <string name="welcome_to_intently_settings">ברוכים הבאים להגדרות!\n\nזכרו, אם יש לכם שאלות, בעמוד \"מידע כללי\" שלנו נמצאת התשובה.</string>
     <string name="share_message">אנחנו זקוקים לעזרתכם! אנו מאמינים שכולם צריכים להכיר את Intently ואת יתרונותיו, אבל אנחנו לא יכולים לעשות זאת לבד.\n\nהאם תוכלו לשתף את Intently עם החברים, המשפחה והעוקבים שלכם? תודה על התמיכה! ❤</string>
     <string name="keyboard_message">היי, המקלדת היא הדרך המהירה ביותר למצוא ולפתוח יישומים ב־Intently. האם נוכל לבקש מכם להשאיר את ההגדרה הזאת פעילה עוד כמה ימים ואז להחליט?\n\nהבחירה תמיד שלכם.</string>
     <string name="wallpaper_message">Intently מציע טפטים חדשים ויפים מדי יום. תנו למסך הבית שלכם מראה חדש ורענן בכל יום, בחינם!\n\nרוצים לנסות?</string>
@@ -63,9 +62,9 @@
     <string name="date_only">תאריך בלבד</string>
     <string name="bottom_on">הצגה למטה: מופעל</string>
     <string name="bottom_off">הצגה למטה: כבוי</string>
-    <string name="please_set_intently_as_default_first">ראשית, נא להגדיר את Intently בתור ברירת המחדל למסך בית.</string>
     <string name="tip_start_typing_for_rename">עצה: אפשר להתחיל להקליד בשביל להגיע לאפשרות לשינוי שם של יישומים</string>
     <string name="hidden_apps_message">הערה: כדי להגיע ליישומים המוסתרים, יש ללחוץ על הכיתוב \'Intently\' שנמצא בראש עמוד ההגדרות.\n\nפרטים נוספים אפשר למצוא בעמוד \"מידע כללי\" שלנו.</string>
+    <string name="accessibility_permission">הרשאת נגישות</string>
     <string name="accessibility_disclosure">נא להפעיל את שירות הנגישות של Intently בהגדרות המכשיר כדי להפעיל את מחוות הנעילה בהקשה כפולה.\n\nשימו לב ששירות זה משמש רק לתכונה זו בלבד. שירות הנגישות שלנו אינו אוסף או משתף נתונים כלשהם.</string>
     <string name="accept">הסכמה</string>
     <string name="permission">הרשאה</string>
@@ -76,6 +75,7 @@
     <string name="not_working"><u>לא עובד?</u></string>
     <string name="info">מידע</string>
     <string name="delete">הסרת התקנה</string>
+    <string name="remove">הסרה</string>
     <string name="text_size">גודל הטקסט</string>
     <string name="enabled">מופעל</string>
     <string name="disabled">מושבת</string>
@@ -94,7 +94,6 @@
     <string name="swipe_left_app_disabled">פתיחת היישום בהחלקה שמאלה כבויה</string>
     <string name="swipe_right_app_disabled">פתיחת היישום בהחלקה ימינה כבויה</string>
     <string name="your_wallpaper_will_update_shortly">הרקע שלך תכף יתעדכן</string>
-    <string name="intently_is_not_default_launcher">יישום Intently לא מוגדר בתור ברירת מחדל.\nייתכן שעדכון הרקע היומי לא יצליח.</string>
     <string name="long_press_to_enable">לחיצה ארוכה להפעלה</string>
     <string name="no_hidden_apps">אין יישומים מוסתרים</string>
     <string name="hidden_apps">יישומים מוסתרים</string>
@@ -105,7 +104,6 @@
     <string name="new_year_wish">לעבר שנה טובה יותר מכל מה שקדם. שנה טובה!</string>
     <string name="new_year_wish_1">לא משנה איך עבר ינואר. עדיין יש לך את שאר השנה להצליח יותר מתמיד</string>
     <string name="cheers">לחיים!</string>
-    <string name="about_intently">אודות ושאלות נפוצות</string>
     <string name="screen_time">זמן מסך</string>
     <string name="learn_more">למדו עוד</string>
     <string name="did_you_know">האם ידעת?</string>
@@ -125,4 +123,8 @@
     <string name="unable_to_open_shortcut">לא ניתן לפתוח את קיצור הדרך</string>
     <string name="unable_to_open_app_info">אין אפשרות לפתוח את המידע על היישום</string>
     <string name="bold_font">גופן מודגש</string>
+    <string name="welcome_to_intently_settings">ברוכים הבאים להגדרות!\n\nזכרו, אם יש לכם שאלות, בעמוד \"מידע כללי\" שלנו נמצאת התשובה.</string>
+    <string name="please_set_intently_as_default_first">ראשית, נא להגדיר את Intently בתור ברירת המחדל למסך בית.</string>
+    <string name="intently_is_not_default_launcher">יישום Intently לא מוגדר בתור ברירת מחדל.\nייתכן שעדכון הרקע היומי לא יצליח.</string>
+    <string name="about_intently">אודות ושאלות נפוצות</string>
 </resources>
