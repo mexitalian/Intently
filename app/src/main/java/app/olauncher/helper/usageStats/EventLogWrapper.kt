@@ -275,8 +275,8 @@ class EventLogWrapper(private val context: Context) {
         // Group by package name, merge overlapping intervals, then sum durations
         val applicationTotalTime = foregroundStats
             .groupBy { it.packageName }
-            .mapValues { (_, stats) ->
-                mergeOverlappingIntervals(stats).map { it.endTime - it.beginTime }.sum()
+            .mapValues { entry ->
+                mergeOverlappingIntervals(entry.value).map { it.endTime - it.beginTime }.sum()
             }
 
         val firstBeginTime = foregroundStats.first().beginTime
@@ -352,7 +352,7 @@ class EventLogWrapper(private val context: Context) {
     }
 
     fun aggregateSimpleUsageStats(usageStats: List<SimpleUsageStat>): Long {
-        return usageStats.sumOf { it.timeUsed }
+        return usageStats.map { it.timeUsed }.sum()
     }
 
     /**
