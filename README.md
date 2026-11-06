@@ -56,6 +56,30 @@ Requirements:
 
 The debug APK is written to `app/build/outputs/apk/debug/`.
 
+## Upstream sync
+
+Intently stays on the GPLv3 lineage of [Olauncher](https://github.com/tanujnotes/Olauncher),
+but inherits functional changes in controlled batches, not as a rolling rebrand.
+
+- The `olauncher` remote points at the original Olauncher repository.
+- `olauncher/master` is fetched separately from `origin/master`.
+- Rebases stay out of the way; merges keep history readable and conflict-free as
+  much as possible.
+- The `olauncher` remote fetches the original code, but the fork decides which
+  functional work to inherit.
+
+```sh
+scripts/sync-upstream.sh
+```
+
+That script creates or reuses `sync/upstream`, merges `olauncher/master` into it,
+and leaves the result on a branch for review before any push. Intently-specific
+branding, privacy, and store metadata are meant to stay Intently-facing.
+
+The remote is deliberately named `olauncher` rather than the conventional
+`upstream`: `gh` CLI treats an `upstream` remote as the base repository, which
+would aim pull request commands at tanujnotes/Olauncher instead of this fork.
+
 ## Privacy
 
 Intently does not include analytics, advertising, or crash-reporting SDKs. App
