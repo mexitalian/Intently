@@ -16,8 +16,6 @@
     <string name="privacy">ความเป็นส่วนตัว</string>
     <string name="share">แชร์</string>
     <string name="share_now">แชร์ตอนนี้</string>
-    <string name="rate">ให้คะแนน</string>
-    <string name="rate_now">ให้คะแนนตอนนี้</string>
     <string name="follow">ติดตาม</string>
     <string name="email">อีเมล</string>
     <string name="donate">บริจาค</string>
@@ -55,8 +53,6 @@
     <string name="light">สว่าง</string>
     <string name="welcome_to_intently_settings">ยินดีต้อนรับสู่การตั้งค่า!
         \n\nโปรดจำไว้ว่าหากคุณมีคำถามใดๆ หน้าเกี่ยวกับเรามีคำตอบให้คุณ</string>
-    <string name="rate_us_message">สวัสดี คุณจะไม่เห็นข้อความนี้อีก
-        \n\nหากคุณพบว่า Intently มีประโยชน์ คุณช่วยให้คะแนนรีวิว 5 ดาวได้ไหม มันจะมีความหมายมากสำหรับเรา ขอบคุณ!</string>
     <string name="share_message">เราต้องการความช่วยเหลือจากคุณ! เราเชื่อว่าทุกคนควรรู้จัก Intently และประโยชน์ของมัน แต่เราทำเพียงลำพังไม่ได้
         \n\nคุณช่วยแชร์ Intently ให้เพื่อน ครอบครัว และผู้ติดตามของคุณได้ไหม ขอบคุณสำหรับการสนับสนุนของคุณ! ❤</string>
     <string name="keyboard_message">สวัสดี แป้นพิมพ์เป็นวิธีที่เร็วที่สุดในการค้นหาและเปิดแอปใน Intently เราขอให้คุณเปิดฟีเจอร์นี้ไว้อีกสองสามวันแล้วค่อยตัดสินใจได้ไหม
@@ -118,9 +114,6 @@
     <string name="screen_time">เวลาหน้าจอ</string>
     <string name="learn_more">เรียนรู้เพิ่มเติม</string>
     <string name="did_you_know">คุณรู้หรือไม่?</string>
-    <string name="leave_a_review">เขียนรีวิว</string>
-    <string name="review_message">Intently ฟรีและจะฟรีตลอดไป ไม่มีโฆษณา ไม่เก็บรวบรวมข้อมูลใดๆ และช่วยลดเวลาหน้าจอของคุณ ส่งผลให้มีชีวิตที่มีสุขภาพดีขึ้น
-        \n\nเราหวังว่าคุณจะชอบมัน บอกเราว่าคุณคิดอย่างไร</string>
     <string name="alignment_changed">เปลี่ยนการจัดวางแล้ว ✅</string>
     <string name="home_screen">หน้าจอหลัก</string>
     <string name="hey">สวัสดี</string>

@@ -16,8 +16,6 @@
     <string name="privacy">Confidențialitate</string>
     <string name="share">Distribuie</string>
     <string name="share_now">Distribuie acum</string>
-    <string name="rate">Evaluează</string>
-    <string name="rate_now">Evaluează acum</string>
     <string name="follow">Urmărește</string>
     <string name="email">E-mail</string>
     <string name="donate">Donează</string>
@@ -55,8 +53,6 @@
     <string name="light">Luminos</string>
     <string name="welcome_to_intently_settings">Bine ai venit în setări!
         \n\nȚine minte, dacă ai întrebări, pagina Despre are răspunsul.</string>
-    <string name="rate_us_message">Salut, nu vei mai vedea acest mesaj din nou.
-        \n\nDacă găsești Intently util, ai putea să ne lași o recenzie de 5 stele? Ar însemna enorm pentru noi. Mulțumim!</string>
     <string name="share_message">Avem nevoie de ajutorul tău! Credem că toată lumea ar trebui să știe despre Intently și beneficiile sale, dar nu putem face asta singuri.
         \n\nAi putea distribui Intently prietenilor, familiei și urmăritorilor tăi? Îți mulțumim pentru sprijin! ❤</string>
     <string name="keyboard_message">Salut, tastatura este cea mai rapidă modalitate de a găsi și lansa aplicații în Intently. Te putem ruga să o lași activată câteva zile în plus și apoi să decizi?
@@ -118,9 +114,6 @@
     <string name="screen_time">Timp pe ecran</string>
     <string name="learn_more">Află mai multe</string>
     <string name="did_you_know">Știai că?</string>
-    <string name="leave_a_review">Lasă o recenzie</string>
-    <string name="review_message">Intently este gratuit și va rămâne mereu așa. Nu are reclame, nu colectează date și îți reduce timpul petrecut pe ecran, ducând la o viață mai sănătoasă.
-        \n\nSperăm că îl vei aprecia. Spune-ne ce părere ai.</string>
     <string name="alignment_changed">Aliniere schimbată ✅</string>
     <string name="home_screen">Ecran de start</string>
     <string name="hey">Salut</string>

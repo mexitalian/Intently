@@ -16,8 +16,6 @@
     <string name="privacy">Quyền riêng tư</string>
     <string name="share">Chia sẻ</string>
     <string name="share_now">Chia sẻ ngay</string>
-    <string name="rate">Đánh giá</string>
-    <string name="rate_now">Đánh giá ngay</string>
     <string name="follow">Theo dõi</string>
     <string name="email">Email</string>
     <string name="donate">Ủng hộ</string>
@@ -55,8 +53,6 @@
     <string name="light">Sáng</string>
     <string name="welcome_to_intently_settings">Chào mừng bạn đến với phần cài đặt!
         \n\nHãy nhớ rằng, nếu bạn có bất kỳ câu hỏi nào, trang Giới thiệu sẽ có câu trả lời.</string>
-    <string name="rate_us_message">Xin chào, bạn sẽ không thấy lại thông báo này nữa.
-        \n\nNếu bạn thấy Intently hữu ích, bạn có thể để lại đánh giá 5 sao không? Điều đó thực sự có ý nghĩa rất lớn với chúng tôi. Cảm ơn bạn!</string>
     <string name="share_message">Chúng tôi cần sự giúp đỡ của bạn! Chúng tôi tin rằng mọi người nên biết về Intently và những lợi ích của nó, nhưng chúng tôi không thể tự làm một mình.
         \n\nBạn có thể chia sẻ Intently với bạn bè, gia đình và người theo dõi của bạn không? Cảm ơn bạn đã ủng hộ! ❤</string>
     <string name="keyboard_message">Xin chào, bàn phím là cách nhanh nhất để tìm và mở ứng dụng trong Intently. Chúng tôi có thể xin bạn giữ tính năng này bật thêm vài ngày rồi quyết định sau không?
@@ -118,9 +114,6 @@
     <string name="screen_time">Thời gian sử dụng màn hình</string>
     <string name="learn_more">Tìm hiểu thêm</string>
     <string name="did_you_know">Bạn có biết?</string>
-    <string name="leave_a_review">Để lại đánh giá</string>
-    <string name="review_message">Intently miễn phí và sẽ luôn miễn phí. Ứng dụng không có quảng cáo, không thu thập dữ liệu và giúp giảm thời gian sử dụng màn hình, mang lại cuộc sống lành mạnh hơn.
-        \n\nChúng tôi hy vọng bạn thích nó. Hãy cho chúng tôi biết bạn nghĩ gì.</string>
     <string name="alignment_changed">Đã thay đổi căn chỉnh ✅</string>
     <string name="home_screen">Màn hình chính</string>
     <string name="hey">Này</string>

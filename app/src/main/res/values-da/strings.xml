@@ -16,8 +16,6 @@
     <string name="privacy">Privatliv</string>
     <string name="share">Del</string>
     <string name="share_now">Del nu</string>
-    <string name="rate">Bedøm</string>
-    <string name="rate_now">Bedøm nu</string>
     <string name="follow">Følg</string>
     <string name="email">E-mail</string>
     <string name="donate">Donér</string>
@@ -55,8 +53,6 @@
     <string name="light">Lyst</string>
     <string name="welcome_to_intently_settings">Velkommen til indstillingerne!
         \n\nHusk, hvis du har spørgsmål, kan du finde svar på vores Om-side.</string>
-    <string name="rate_us_message">Hej, du får ikke denne besked igen.
-        \n\nHvis du finder Intently nyttig, vil du så give os en 5-stjernet anmeldelse? Det vil betyde meget for os. Tak!</string>
     <string name="share_message">Vi har brug for din hjælp! Vi mener, at alle bør kende til Intently og dets fordele, men vi kan ikke gøre det alene.
         \n\nVil du dele Intently med dine venner, familie og følgere? Tak for din støtte! ❤</string>
     <string name="keyboard_message">Hej, tastaturet er den hurtigste måde at finde og åbne apps på i Intently. Må vi bede dig om at lade det være slået til et par dage endnu og så beslutte dig?
@@ -117,9 +113,6 @@
     <string name="screen_time">Skærmtid</string>
     <string name="learn_more">Læs mere</string>
     <string name="did_you_know">Vidste du det?</string>
-    <string name="leave_a_review">Skriv en anmeldelse</string>
-    <string name="review_message">Intently er gratis og vil altid være det. Den har ingen reklamer, indsamler ingen data og reducerer din skærmtid, hvilket giver et sundere liv.
-        \n\nVi håber, du nyder den. Fortæl os, hvad du synes.</string>
     <string name="alignment_changed">Justering ændret ✅</string>
     <string name="home_screen">Startskærm</string>
     <string name="hey">Hej</string>

@@ -16,8 +16,6 @@
     <string name="privacy">Privacidade</string>
     <string name="share">Compartilhar</string>
     <string name="share_now">Compartilhar agora</string>
-    <string name="rate">Avaliar</string>
-    <string name="rate_now">Avaliar agora</string>
     <string name="follow">Seguir</string>
     <string name="email">E-mail</string>
 
@@ -56,7 +54,6 @@
     <string name="light">Claro</string>
     <string name="welcome_to_intently_settings">Bem-vindo às configurações!
         \n\nLembre-se, se você tiver alguma dúvida, nossa página Sobre tem a resposta.</string>
-    <string name="rate_us_message">Oi, você não verá esta mensagem novamente.\n\nSe o Intently está sendo útil para você, poderia deixar uma avaliação de 5 estrelas? Isso significaria muito para nós. Obrigado!</string>
     <string name="share_message">Precisamos da sua ajuda! Acreditamos que todos deveriam conhecer o Intently e seus benefícios, mas não podemos fazer isso sozinhos.\n\nVocê poderia compartilhar o Intently com seus amigos, familiares e seguidores? Obrigado pelo seu apoio! ❤</string>
     <string name="keyboard_message">Olá, o teclado é a maneira mais rápida de encontrar e iniciar aplicativos no Intently. Podemos pedir-lhe que mantenha isto ligado por mais alguns dias para depois decidir?
         \n\nA escolha é sempre sua!</string>
@@ -117,8 +114,6 @@
     <string name="learn_more">Saber mais</string>
     <string name="screen_time">Tempo de tela</string>
     <string name="did_you_know">Você sabia?</string>
-    <string name="leave_a_review">Deixe uma avaliação</string>
-    <string name="review_message">O Intently é gratuito e sempre será. Não tem anúncios, não coleta dados e reduz seu tempo de tela, resultando em uma vida mais saudável.\n\nEsperamos que você goste. Diga-nos o que achou.</string>
     <string name="alignment_changed">Alinhamento alterado ✅</string>
     <string name="home_screen">Tela inicial</string>
     <string name="hey">Oi</string>

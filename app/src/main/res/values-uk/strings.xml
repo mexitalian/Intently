@@ -16,8 +16,6 @@
     <string name="privacy">Конфіденційність</string>
     <string name="share">Поділитися</string>
     <string name="share_now">Поділитися</string>
-    <string name="rate">Оцінити</string>
-    <string name="rate_now">Оцінити</string>
     <string name="follow">Перейти</string>
     <string name="email">Електронна пошта</string>
 
@@ -55,7 +53,6 @@
     <string name="dark">Темна</string>
     <string name="light">Світла</string>
     <string name="welcome_to_intently_settings">Ласкаво просимо до налаштувань!\n\nПам\'ятайте: якщо у вас є питання, відповідь є на нашій сторінці «Про додаток».</string>
-    <string name="rate_us_message">Вітаємо, ви більше не побачите це повідомлення.\n\nЯкщо Intently вам корисний, чи не могли б ви залишити відгук із 5 зірками? Для нас це дуже багато значить. Дякуємо!</string>
     <string name="share_message">Нам потрібна ваша допомога! Ми вважаємо, що кожен має знати про Intently та його переваги, але самотужки нам не впоратися.\n\nЧи не могли б ви поділитися Intently із друзями, родиною та підписниками? Дякуємо за підтримку! ❤</string>
     <string name="keyboard_message">Привіт, клавіатура - це найшвидший спосіб знайти та запустити програми в Intently. Чи можемо ми попросити вас залишити це увімкненим ще на кілька днів, а потім прийняти рішення?
         \n\nВибір завжди за вами.</string>
@@ -116,8 +113,6 @@
     <string name="learn_more">Дізнатися більше</string>
     <string name="screen_time">Час екрану</string>
     <string name="did_you_know">Чи знали ви?</string>
-    <string name="leave_a_review">Залиште відгук</string>
-    <string name="review_message">Intently безкоштовний і завжди таким буде. У ньому немає реклами, він не збирає дані та скорочує ваш час перед екраном, що веде до здоровішого життя.\n\nСподіваємося, вам сподобається. Розкажіть нам, що ви думаєте.</string>
     <string name="alignment_changed">Вирівнювання змінено ✅</string>
     <string name="home_screen">Головний екран</string>
     <string name="hey">Привіт</string>

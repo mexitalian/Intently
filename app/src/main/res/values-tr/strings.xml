@@ -57,8 +57,6 @@
     <string name="privacy">Gizlilik</string>
     <string name="share">Paylaş</string>
     <string name="share_now">Şimdi paylaş</string>
-    <string name="rate">Değerlendir</string>
-    <string name="rate_now">Şimdi değerlendir</string>
     <string name="follow">Takip et</string>
     <string name="email">E-posta</string>
 
@@ -84,7 +82,6 @@
     <string name="dark">Koyu</string>
     <string name="light">Açık</string>
     <string name="welcome_to_intently_settings">Ayarlar sayfasına hoş geldiniz!\n\nUnutmayın, herhangi bir sorunuz olursa \"Hakkında\" sayfamıza danışabilirsiniz.</string>
-    <string name="rate_us_message">Merhaba, bu mesajı bir daha görmeyeceksiniz.\n\nIntently\'ı faydalı buluyorsanız, 5 yıldızlı bir değerlendirme bırakır mısınız? Bu bizim için çok şey ifade eder. Teşekkür ederiz!</string>
     <string name="share_message">Yardımınıza ihtiyacımız var! Herkesin Intently\'ı ve faydalarını bilmesi gerektiğine inanıyoruz ama bunu tek başımıza yapamayız.\n\nIntently\'ı arkadaşlarınız, aileniz ve takipçilerinizle paylaşır mısınız? Desteğiniz için teşekkürler! ❤</string>
     <string name="keyboard_message">Merhaba, klavye, Intently\'da uygulamaları bulmanın ve başlatmanın en hızlı yoludur. Birkaç gün daha kullanıp karar vermenizi rica ederiz.
         \n\nSeçim her zaman sizindir.</string>
@@ -116,9 +113,6 @@
     <string name="learn_more">Daha fazla bilgi</string>
     <string name="screen_time">Ekran süresi</string>
     <string name="did_you_know">Biliyor muydunuz?</string>
-    <string name="leave_a_review">Değerlendirme bırakın</string>
-    <string name="review_message">Intently tamamen ücretsizdir ve her zaman ücretsiz olacaktır. Reklam yok, veri toplamaz ve en önemlisi ekran sürenizi azaltmanıza ve daha sağlıklı bir dijital yaşam sürmenize yardımcı olur.
-        \n\nUmarım hoşunuza gider. Düşüncelerinizi mutlaka bizimle paylaşın!</string>
     <string name="alignment_changed">Hizalama değiştirildi ✅</string>
     <string name="home_screen">Ana ekran</string>
     <string name="hey">Merhaba</string>

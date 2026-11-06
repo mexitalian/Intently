@@ -57,8 +57,6 @@
     <string name="privacy">Prywatność</string>
     <string name="share">Udostępnij</string>
     <string name="share_now">Udostępnij teraz</string>
-    <string name="rate">Oceń</string>
-    <string name="rate_now">Oceń teraz</string>
     <string name="follow">Śledź</string>
     <string name="email">E-mail</string>
 
@@ -85,7 +83,6 @@
     <string name="light">Jasny</string>
     <string name="welcome_to_intently_settings">Witamy w ustawieniach!
         \n\nPamiętaj, jeśli masz jakiekolwiek pytania, nasza strona „O nas” ma odpowiedź.</string>
-    <string name="rate_us_message">Cześć, nie zobaczysz już tej wiadomości.\n\nJeśli Intently jest dla Ciebie przydatny, czy możesz zostawić ocenę 5 gwiazdek? Będzie to dla nas bardzo wiele znaczyć. Dziękujemy!</string>
     <string name="share_message">Potrzebujemy Twojej pomocy! Uważamy, że każdy powinien wiedzieć o Intently i jego zaletach, ale sami nie damy rady.\n\nCzy możesz udostępnić Intently swoim znajomym, rodzinie i obserwującym? Dziękujemy za wsparcie! ❤</string>
     <string name="keyboard_message">Cześć, klawiatura to najszybszy sposób znajdowania i uruchamiania aplikacji w Intently. Czy możemy poprosić o pozostawienie tego włączonego jeszcze przez kilka dni, a następnie podjęcie decyzji?\n\nWybór zawsze należy do Ciebie.</string>
     <string name="digital_wellbeing_message">Jeśli chcesz ustawić limity czasowe dla niektórych aplikacji, funkcja Cyfrowa równowaga w systemie Android może Ci w tym pomóc.
@@ -116,8 +113,6 @@
     <string name="screen_time">Czas ekranowy</string>
     <string name="learn_more">Dowiedz się więcej</string>
     <string name="did_you_know">Czy wiesz?</string>
-    <string name="leave_a_review">Zostaw opinię</string>
-    <string name="review_message">Intently jest darmowy i zawsze taki będzie. Nie ma reklam, nie zbiera danych i skraca czas spędzany przed ekranem, co przekłada się na zdrowsze życie.\n\nMamy nadzieję, że Ci się spodoba. Powiedz nam, co myślisz.</string>
     <string name="alignment_changed">Wyrównanie zmienione ✅</string>
     <string name="home_screen">Ekran główny</string>
     <string name="hey">Hej</string>

@@ -16,8 +16,6 @@
     <string name="privacy">Конфиденциальность</string>
     <string name="share">Поделиться</string>
     <string name="share_now">Поделиться сейчас</string>
-    <string name="rate">Оценить</string>
-    <string name="rate_now">Оценить сейчас</string>
     <string name="follow">Подписаться</string>
     <string name="email">Электронная почта</string>
 
@@ -55,7 +53,6 @@
     <string name="dark">Темная</string>
     <string name="light">Светлая</string>
     <string name="welcome_to_intently_settings">Добро пожаловать в настройки!\n\nПомните: если у вас есть вопросы, ответ есть на нашей странице «О приложении».</string>
-    <string name="rate_us_message">Здравствуйте, вы больше не увидите это сообщение.\n\nЕсли Intently вам полезен, не могли бы вы оставить отзыв с 5 звёздами? Для нас это очень много значит. Спасибо!</string>
     <string name="share_message">Нам нужна ваша помощь! Мы считаем, что каждый должен знать об Intently и его преимуществах, но в одиночку нам не справиться.\n\nНе могли бы вы поделиться Intently с друзьями, семьёй и подписчиками? Спасибо за поддержку! ❤</string>
     <string name="keyboard_message">Привет, клавиатура — это самый быстрый способ найти и запустить приложения в Intently. Могли бы вы продолжить использовать Автопоказ клавиатуры еще несколько дней, прежде чем принять окончательное решение?
         \n\nВыбор всегда за вами.</string>
@@ -116,8 +113,6 @@
     <string name="screen_time">Время на экране</string>
     <string name="learn_more">Узнать больше</string>
     <string name="did_you_know">Вы знали?</string>
-    <string name="leave_a_review">Оставить отзыв</string>
-    <string name="review_message">Intently бесплатен и всегда будет таким. В нём нет рекламы, он не собирает данные и сокращает ваше экранное время, что ведёт к более здоровой жизни.\n\nНадеемся, вам понравится. Расскажите нам, что вы думаете.</string>
     <string name="alignment_changed">Выравнивание изменено ✅</string>
     <string name="home_screen">Главный экран</string>
     <string name="hey">Привет</string>

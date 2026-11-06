@@ -16,8 +16,6 @@
     <string name="privacy">Privatnost</string>
     <string name="share">Podijeli</string>
     <string name="share_now">Podijeli sada</string>
-    <string name="rate">Ocijeni</string>
-    <string name="rate_now">Ocijeni sada</string>
     <string name="follow">Prati</string>
     <string name="email">E-pošta</string>
     <string name="donate">Doniraj</string>
@@ -55,7 +53,6 @@
     <string name="light">Svijetla</string>
     <string name="welcome_to_intently_settings">Dobrodošli u postavke!
         \n\nZapamtite, ako imate bilo kakvih pitanja, naša stranica O nama ima odgovor.</string>
-    <string name="rate_us_message">Bok, ovu poruku više nećete vidjeti.\n\nAko vam je Intently koristan, možete li nam ostaviti recenziju s 5 zvjezdica? To bi nam jako puno značilo. Hvala!</string>
     <string name="share_message">Trebamo vašu pomoć! Vjerujemo da bi svi trebali znati za Intently i njegove prednosti, ali ne možemo to sami.\n\nMožete li podijeliti Intently sa svojim prijateljima, obitelji i pratiteljima? Hvala na podršci! ❤</string>
     <string name="keyboard_message">Bok, tipkovnica je najbrži način za pronalaženje i pokretanje aplikacija u Intentlyu. Možemo li vas zamoliti da to zadržite uključeno još nekoliko dana, a zatim odlučite?
         \n\nIzbor je uvijek vaš.</string>
@@ -80,8 +77,6 @@
     <string name="learn_more">Saznajte više</string>
     <string name="did_you_know">Jeste li znali?</string>
     <string name="screen_time">Vrijeme na ekranu</string>
-    <string name="leave_a_review">Ostavite recenziju</string>
-    <string name="review_message">Intently je besplatan i uvijek će biti. Nema reklama, ne prikuplja podatke i smanjuje vaše vrijeme pred ekranom, što vodi zdravijem životu.\n\nNadamo se da će vam se svidjeti. Recite nam što mislite.</string>
 
     <string name="accessibility_disclosure">Molimo uključite Intentlyovu uslugu pristupačnosti u postavkama uređaja kako biste omogućili gestu dvostrukog dodira za zaključavanje.\n\nImajte na umu da se ova usluga koristi samo za tu značajku. Naša usluga pristupačnosti ne prikuplja niti dijeli nikakve podatke.</string>
     <string name="accept">Prihvati</string>

@@ -16,8 +16,6 @@
     <string name="privacy">개인정보</string>
     <string name="share">공유</string>
     <string name="share_now">지금 공유</string>
-    <string name="rate">평가</string>
-    <string name="rate_now">지금 평가</string>
     <string name="follow">팔로우</string>
     <string name="email">이메일</string>
     <string name="donate">후원</string>
@@ -54,7 +52,6 @@
     <string name="dark">다크</string>
     <string name="light">라이트</string>
     <string name="welcome_to_intently_settings">설정에 오신 것을 환영합니다!\n\n궁금한 점이 있으면 앱 정보(About) 페이지를 확인하세요.</string>
-    <string name="rate_us_message">안녕하세요, 이 메시지는 다시 표시되지 않습니다.\n\nIntently가 도움이 된다면 5성 리뷰를 남겨주실 수 있나요? 정말 큰 힘이 됩니다. 감사합니다!</string>
     <string name="share_message">도움이 필요합니다! Intently의 장점을 더 많은 사람에게 알리고 싶습니다.\n\n친구, 가족, 팔로워와 Intently를 공유해 주실 수 있나요? 지원해 주셔서 감사합니다! ❤</string>
     <string name="keyboard_message">안내: 키보드는 Intently에서 앱을 빠르게 찾고 실행하는 가장 빠른 방법입니다. 며칠 동안 켜 두었다가 결정해 보시길 권합니다.\n\n선택은 항상 사용자에게 있습니다.</string>
     <string name="digital_wellbeing_message">특정 앱의 사용 시간을 제한하려면 Android의 Digital Wellbeing(디지털 웰빙) 기능을 사용해 보세요. 휴대폰 설정에서 Digital Wellbeing을 검색해 활성화하세요.</string>
@@ -111,8 +108,6 @@
     <string name="screen_time">스크린 타임</string>
     <string name="learn_more">자세히 알아보기</string>
     <string name="did_you_know">알고 계셨나요?</string>
-    <string name="leave_a_review">리뷰 남기기</string>
-    <string name="review_message">Intently는 무료이며 앞으로도 무료입니다. 광고가 없고 데이터를 수집하지 않으며 화면 사용 시간을 줄여 더 건강한 생활을 돕습니다.\n\n마음에 드셨다면 의견을 들려주세요.</string>
     <string name="alignment_changed">정렬이 변경되었습니다 ✅</string>
     <string name="home_screen">홈 화면</string>
     <string name="hey">안녕하세요</string>

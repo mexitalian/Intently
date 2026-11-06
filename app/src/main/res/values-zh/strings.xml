@@ -48,8 +48,6 @@
     <string name="privacy">隐私</string>
     <string name="share">分享</string>
     <string name="share_now">立即分享</string>
-    <string name="rate">评分</string>
-    <string name="rate_now">立即评分</string>
     <string name="follow">关注</string>
     <string name="email">电子邮件</string>
 
@@ -85,7 +83,6 @@
     <string name="light">浅色</string>
     <string name="welcome_to_intently_settings">欢迎来到设置！
         \n\n请记住，如果您有任何问题，我们的“关于”页面有答案。</string>
-    <string name="rate_us_message">您好，您不会再看到此消息。\n\n如果您觉得 Intently 有用，能否留下 5 星评价？这对我们意义重大。谢谢！</string>
     <string name="share_message">我们需要您的帮助！我们相信每个人都应该了解 Intently 及其好处，但我们无法独自做到。\n\n您能否与您的朋友、家人和关注者分享 Intently？感谢您的支持！ ❤</string>
     <string name="keyboard_message">您好，键盘是在 Intently 中查找和启动应用程序的最快方式。我们能否请您再保持开启几天，然后再做决定？\n\n选择权永远在您手中。</string>
     <string name="digital_wellbeing_message">如果您想为某些应用程序设置时间限制，Android 的数字健康功能可以帮助您做到这一点。
@@ -116,8 +113,6 @@
     <string name="learn_more">了解更多</string>
     <string name="screen_time">屏幕时间</string>
     <string name="did_you_know">你知道吗？</string>
-    <string name="leave_a_review">留下评价</string>
-    <string name="review_message">Intently 是免费的，并将永远免费。它没有广告，不收集数据，并能减少您的屏幕时间，让生活更健康。\n\n希望您喜欢。告诉我们您的想法。</string>
     <string name="alignment_changed">对齐已更改 ✅</string>
     <string name="home_screen">主屏幕</string>
     <string name="hey">嘿</string>

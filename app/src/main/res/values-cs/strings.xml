@@ -16,8 +16,6 @@
     <string name="privacy">Soukromí</string>
     <string name="share">Sdílet</string>
     <string name="share_now">Sdílet nyní</string>
-    <string name="rate">Ohodnotit</string>
-    <string name="rate_now">Ohodnotit nyní</string>
     <string name="follow">Sledovat</string>
     <string name="email">E-mail</string>
     <string name="donate">Přispět</string>
@@ -55,8 +53,6 @@
     <string name="light">Světlý</string>
     <string name="welcome_to_intently_settings">Vítejte v nastavení!
         \n\nPamatujte, pokud máte jakékoli otázky, na stránce O aplikaci najdete odpovědi.</string>
-    <string name="rate_us_message">Ahoj, tuto zprávu už znovu neuvidíte.
-        \n\nPokud vám Intently přijde užitečný, mohli byste nám prosím nechat pětihvězdičkové hodnocení? Bude to pro nás moc znamenat. Děkujeme!</string>
     <string name="share_message">Potřebujeme vaši pomoc! Věříme, že by měl o Intentlyu a jeho výhodách vědět každý, ale sami to nezvládneme.
         \n\nMohli byste prosím sdílet Intently se svými přáteli, rodinou a sledujícími? Děkujeme za vaši podporu! ❤</string>
     <string name="keyboard_message">Ahoj, klávesnice je nejrychlejší způsob, jak v Intentlyu najít a spustit aplikace. Můžeme vás požádat, abyste ji nechali zapnutou ještě pár dní a pak se rozhodli?
@@ -118,9 +114,6 @@
     <string name="screen_time">Doba u obrazovky</string>
     <string name="learn_more">Zjistit více</string>
     <string name="did_you_know">Věděli jste?</string>
-    <string name="leave_a_review">Zanechat recenzi</string>
-    <string name="review_message">Intently je zdarma a vždy bude. Nemá reklamy, nesbírá žádná data a zkracuje dobu strávenou u obrazovky, což vede ke zdravějšímu životu.
-        \n\nDoufáme, že se vám bude líbit. Řekněte nám, co si myslíte.</string>
     <string name="alignment_changed">Zarovnání změněno ✅</string>
     <string name="home_screen">Domovská obrazovka</string>
     <string name="hey">Ahoj</string>

@@ -38,8 +38,6 @@
     <string name="privacy">Privacy</string>
     <string name="share">Share</string>
     <string name="share_now">Share now</string>
-    <string name="rate">Rate</string>
-    <string name="rate_now">Rate now</string>
     <string name="follow">Follow</string>
     <string name="email">Email</string>
     <string name="donate">Donate</string>
@@ -77,8 +75,6 @@
     <string name="light">Light</string>
     <string name="welcome_to_intently_settings">Welcome to the settings!
         \n\nRemember, if you have any questions, our About page has the answer.</string>
-    <string name="rate_us_message">Hi, you won\'t see this message again.
-        \n\nIf you\'re finding Intently useful, could you please leave a 5-star review? It\'ll mean the world to us. Thank you!</string>
     <string name="share_message">We need your help! We believe everyone should know about Intently and its benefits, but we can\'t do it alone.
         \n\nCould you please share Intently with your friends, family, and followers? Thank you for your support! ❤</string>
     <!--    <string name="share_message">Your monthly reminder - you should use your phone, not the other way round. Stay strong. You\'re doing great!-->
@@ -143,9 +139,6 @@
     <string name="screen_time">Screen time</string>
     <string name="learn_more">Learn more</string>
     <string name="did_you_know">Did you know?</string>
-    <string name="leave_a_review">Leave a review</string>
-    <string name="review_message">Intently is free and always will be. It has no ads, collects no data, and reduces your screen time, resulting in a healthier life.
-        \n\nWe hope you enjoy it. Tell us what you think.</string>
     <string name="alignment_changed">Alignment changed ✅</string>
     <string name="home_screen">Home screen</string>
     <string name="hey">Hey</string>

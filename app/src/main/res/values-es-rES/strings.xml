@@ -16,8 +16,6 @@
     <string name="privacy">Privacidad</string>
     <string name="share">Compartir</string>
     <string name="share_now">Compartir ahora</string>
-    <string name="rate">Calificar</string>
-    <string name="rate_now">Calificar ahora</string>
     <string name="follow">Seguir</string>
     <string name="email">Correo electrónico</string>
 
@@ -56,7 +54,6 @@
     <string name="light">Claro</string>
     <string name="welcome_to_intently_settings">¡Bienvenido a la configuración!
         \n\nRecuerda, si tienes alguna pregunta, nuestra página Acerca de tiene la respuesta.</string>
-    <string name="rate_us_message">Hola, no volverás a ver este mensaje.\n\nSi Intently te está resultando útil, ¿podrías dejarnos una reseña de 5 estrellas? Significaría muchísimo para nosotros. ¡Gracias!</string>
     <string name="share_message">¡Necesitamos tu ayuda! Creemos que todo el mundo debería conocer Intently y sus ventajas, pero no podemos hacerlo solos.\n\n¿Podrías compartir Intently con tus amigos, familiares y seguidores? ¡Gracias por tu apoyo! ❤</string>
     <string name="keyboard_message">Hola, el teclado es la forma más rápida de encontrar y abrir aplicaciones en Intently. ¿Podemos pedirte que lo mantengas activado unos días más y luego decidas?\n\nLa decisión siempre es tuya.</string>
     <string name="digital_wellbeing_message">Si deseas establecer límites de tiempo para determinadas aplicaciones, la función Bienestar digital de Android puede ayudarte a hacerlo. Busca Bienestar digital en la configuración de tu teléfono y actívalo.</string>
@@ -115,8 +112,6 @@
     <string name="learn_more">Más información</string>
     <string name="did_you_know">¿Lo sabías?</string>
     <string name="screen_time">Tiempo de pantalla</string>
-    <string name="leave_a_review">Dejar una reseña</string>
-    <string name="review_message">Intently es gratis y siempre lo será. No tiene anuncios, no recopila datos y reduce tu tiempo de pantalla, lo que se traduce en una vida más saludable.\n\nEsperamos que lo disfrutes. Cuéntanos qué te parece.</string>
     <string name="alignment_changed">Alineación cambiada ✅</string>
     <string name="home_screen">Pantalla de inicio</string>
     <string name="hey">Hola</string>

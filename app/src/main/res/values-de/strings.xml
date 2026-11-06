@@ -57,8 +57,6 @@
     <string name="privacy">Privatsphäre</string>
     <string name="share">Teilen</string>
     <string name="share_now">Jetzt teilen</string>
-    <string name="rate">Bewerten</string>
-    <string name="rate_now">Jetzt bewerten</string>
     <string name="follow">Folgen</string>
     <string name="email">E-Mail</string>
 
@@ -85,7 +83,6 @@
     <string name="light">Hell</string>
     <string name="welcome_to_intently_settings">Willkommen in den Einstellungen!
         \n\nDenken Sie daran, wenn Sie Fragen haben, unsere Seite „Über“ hat die Antwort.</string>
-    <string name="rate_us_message">Hallo, diese Nachricht wird Ihnen nicht mehr angezeigt.\n\nWenn Sie Intently nützlich finden, könnten Sie uns bitte eine 5-Sterne-Bewertung hinterlassen? Es würde uns sehr viel bedeuten. Danke!</string>
     <string name="share_message">Wir brauchen Ihre Hilfe! Wir glauben, dass jeder Intently und seine Vorteile kennen sollte, aber alleine schaffen wir das nicht.\n\nKönnten Sie Intently bitte mit Ihren Freunden, Ihrer Familie und Ihren Followern teilen? Vielen Dank für Ihre Unterstützung! ❤</string>
     <string name="keyboard_message">Hallo, die Tastatur ist der schnellste Weg, Apps in Intently zu finden und zu starten. Können wir Sie bitten, die Funktion noch ein paar Tage eingeschaltet zu lassen und dann zu entscheiden?
         \n\nDie Wahl liegt immer bei Ihnen.</string>
@@ -116,8 +113,6 @@
     <string name="about_intently">Über und FAQ</string>
     <string name="learn_more">Erfahren Sie mehr</string>
     <string name="did_you_know">Wussten Sie?</string>
-    <string name="leave_a_review">Bewertung schreiben</string>
-    <string name="review_message">Intently ist kostenlos und wird es immer bleiben. Es hat keine Werbung, sammelt keine Daten und reduziert Ihre Bildschirmzeit, was zu einem gesünderen Leben führt.\n\nWir hoffen, es gefällt Ihnen. Sagen Sie uns, was Sie denken.</string>
     <string name="alignment_changed">Ausrichtung geändert ✅</string>
     <string name="home_screen">Startbildschirm</string>
     <string name="hey">Hey</string>
