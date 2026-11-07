@@ -1,7 +1,8 @@
-# Contributing to Olauncher
+# Contributing to Intently
 
-Olauncher aims to stay minimal — a distraction-free, ad-free launcher. Not every feature
-request fits that goal; some niche features are kept hidden rather than exposed by default.
+Intently aims to stay minimal — a distraction-free, ad-free launcher built around
+intentions. Not every feature request fits that goal; some niche features are kept
+hidden rather than exposed by default.
 
 ## Before opening a PR
 

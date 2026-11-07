@@ -2,13 +2,17 @@
 <p><i>Intently</i> is a minimal, ad-free Android launcher built around intentions. Give each home-screen row a word — Read, Listen, Create, Move — and keep only the apps that serve it.</p>
 <p><br><b>FEATURES YOU MIGHT LIKE:</b></p>
 <ul>
-<li><b>Intention-first home screen:</b> Name each row, choose the app that opens on tap, and swipe up to see the rest.</li>
+<li><b>Intention-first home screen:</b> Name each row (Read, Listen, Create, Move…), choose the app that opens on tap, and swipe up to open its folder view. A single member behaves like a plain app; more members make a folder.</li>
+<li><b>App rename labels:</b> Give any app a bespoke name shown on the home screen and in the drawer.</li>
 <li><b>Fast app drawer:</b> Search by name and launch automatically when one result matches.</li>
-<li><b>Useful gestures:</b> Double tap to lock, swipe up for all apps, and optional left/right shortcuts.</li>
-<li><b>Customizations:</b> Resize text, rename apps, hide unused apps, adjust alignment, and show or hide the status bar.</li>
+<li><b>Useful gestures:</b> Double tap to lock, swipe up for all apps, swipe up on an intention for its folder, and optional left/right shortcuts.</li>
+<li><b>Home app slots:</b> Show 1–8 apps directly on the home screen.</li>
+<li><b>Screen time:</b> Today's screen time at a glance, with a configurable app to open for details.</li>
+<li><b>Customizations:</b> Resize text, bold font, rename apps, hide unused apps, adjust alignment, show or hide the status bar, and choose date/time display.</li>
 <li><b>Wallpaper:</b> A new wallpaper every day, or use any image from your gallery.</li>
 <li><b>Privacy:</b> No data collection, no ads, no trackers. Free and open source under GPLv3.</li>
 <li><b>Modern Android:</b> Dark and light themes, work profile support, and Private Space support on supported devices.</li>
+<li><b>About page:</b> FAQs, tips, and the complete list of hidden niche features.</li>
 </ul>
 <p>To keep the home screen simple, a few niche features are available but hidden. Please visit the <b>About</b> page in settings for the complete list.</p>
 <p><b>FAQs:</b></p>
