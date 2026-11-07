@@ -38,14 +38,71 @@ Download the latest APK from
 Intently requires Android 7.0 (API 24) or newer. This fork is distributed through
 GitHub Releases; it is not published on Google Play or F-Droid by this project.
 
-## Gestures
+## Navigation & gesture flow
 
-- **Swipe up** anywhere on the home screen to open the app drawer.
-- **Swipe up on an intention** to open its folder view.
-- **Long press** the home screen to open settings.
-- **Double tap** to lock the screen. This requires enabling Intently's
-  accessibility service.
-- **Swipe left or right** to open the optional shortcut apps.
+```mermaid
+flowchart TD
+    Home["🏠 Home<br/>(Intention list)"]
+    Drawer["📱 App Drawer<br/>(Search + all apps)"]
+    Settings["⚙️ Settings"]
+    Folder["📂 Expanded Folder View<br/>(inline on Home)"]
+    ExtApp["📲 Launches external app"]
+    SysAcc["🔒 System Accessibility Settings"]
+    SysAppInfo["ℹ️ System App Info"]
+
+    Home -->|"Swipe UP (anywhere)"| Drawer
+    Home -->|"Long press"| Settings
+    Home -->|"Double tap"| Lock["🔒 Lock screen<br/>(via accessibility service)"]
+    Home -->|"Swipe LEFT / RIGHT"| Shortcut["📱 Shortcut app"]
+    Home -->|"Tap intention row"| ExtApp
+    Home -->|"Swipe UP on intention row"| Folder
+    Home -->|"Long press intention row"| EditMode["✏️ Toggle edit mode<br/>(rename intention)"]
+    Home -->|"Tap home app slot (1-8)"| ExtApp
+    Home -->|"Long press home app slot"| RenameApp["✏️ Rename app label"]
+    Home -->|"Tap clock"| ClockApp["🕐 Clock app"]
+    Home -->|"Tap lock button"| ToggleLock["🔒 Toggle lock mode"]
+
+    Folder -->|"Swipe DOWN / Tap outside"| Home
+    Folder -->|"Long press intention name"| EditMode
+    Folder -->|"Tap member app"| ExtApp
+    Folder -->|"Long press member app"| RenameMember["✏️ Rename member"]
+
+    Drawer -->|"Back / swipe down"| Home
+    Drawer -->|"Settings icon"| Settings
+    Drawer -->|"Tap app"| ExtApp
+    Drawer -->|"Long press app"| ContextMenu["📋 Hide / Rename / Info"]
+    ContextMenu -->|"App info"| SysAppInfo
+
+    Settings -->|"Back"| Home
+    Settings -->|"Set swipe shortcut"| Drawer
+    Settings -->|"Hidden apps"| HiddenApps["👁️ Hidden apps list"]
+    Settings -->|"About & FAQs"| About["📖 About page"]
+    Settings -->|"Accessibility disclosure"| SysAcc
+    Settings -->|"App info"| SysAppInfo
+
+    classDef screen fill:#1a1a2e,stroke:#e94560,color:#fff
+    classDef action fill:#0f3460,stroke:#533483,color:#fff
+
+    class Home,Drawer,Settings,Folder screen
+    class ExtApp,Lock,Shortcut,ClockApp,ToggleLock,EditMode,RenameApp,RenameMember,ContextMenu,HiddenApps,About,SysAcc,SysAppInfo action
+```
+
+| Gesture | Location | Action |
+|---|---|---|
+| Swipe up | Home (anywhere) | Open app drawer |
+| Swipe up | Intention row | Open folder view |
+| Swipe down | Folder view | Close folder view |
+| Long press | Home screen | Open settings |
+| Double tap | Home screen | Lock screen (accessibility) |
+| Swipe left/right | Home screen | Open shortcut app |
+| Tap | Intention row | Launch primary app |
+| Long press | Intention row | Toggle edit mode (rename) |
+| Tap | Home app slot | Launch app |
+| Long press | Home app slot | Rename app label |
+| Tap | Clock | Open clock app |
+| Tap | Lock button | Toggle lock mode |
+| Tap | App (in drawer) | Launch app |
+| Long press | App (in drawer) | Hide / rename / info menu |
 
 ## Build
 
