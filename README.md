@@ -11,17 +11,24 @@ Intently is an independent, GPLv3-licensed fork of
 
 ## Features
 
-- **Intention-first home screen.** Name each row, add the apps that belong to it,
-  and choose which app opens on a tap.
-- **Fast app drawer.** Search by name, with automatic launch when one result
-  matches.
-- **Useful gestures.** Swipe up for all apps, double tap to lock, and configurable
-  left/right app shortcuts.
+- **Intention-first home screen.** Name each row (Read, Listen, Create, Move…), add the
+  apps that serve it, and choose which app opens on a tap. With a single member a row
+  behaves like a plain app; more members make it a folder you open with a swipe up.
+- **App rename labels.** Give any app a bespoke name shown on the home screen and in
+  the drawer.
+- **Fast app drawer.** Search by name, with automatic launch when one result matches.
+- **Useful gestures.** Swipe up for all apps, swipe up on an intention for its folder
+  view, double tap to lock, and configurable left/right app shortcuts.
+- **Home app slots.** Show 1–8 apps directly on the home screen.
 - **Quiet by default.** No ads, no analytics, and no data collection.
-- **Make it yours.** Text size, bold font, alignment, themes, status bar, and
-  daily wallpapers.
+- **Screen time.** Today's screen time at a glance, with a configurable app to open
+  for details.
+- **Make it yours.** Text size, bold font, alignment, themes, status bar, date/time
+  display, and daily wallpapers.
+- **Hidden apps.** Hide unused apps from the drawer; reveal them from settings.
 - **Modern Android support.** Work profile and Private Space support on supported
   devices.
+- **About page.** FAQs, tips, and the complete list of hidden niche features.
 
 ## Install
 
